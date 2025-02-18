@@ -2,9 +2,9 @@ def remove_disabled_components():
     import shutil
     from pathlib import Path
     allowed_components = {
-        "table": {{ cookiecutter.components.table }},
-        "chart": {{ cookiecutter.components.chart }},
-        "map": {{ cookiecutter.components.map }}
+        "table": "{{ cookiecutter.components.table }}",
+        "chart": "{{ cookiecutter.components.chart }}",
+        "map": "{{ cookiecutter.components.map }}"
     }
 
     def is_allowed_dir(dir_name):
@@ -25,3 +25,6 @@ def main():
     remove_disabled_components()
 
     print("Project initialized, keep up the good work!")  # noqa: F821
+
+if __name__ == "__main__":
+    main()
