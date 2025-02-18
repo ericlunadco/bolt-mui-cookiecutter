@@ -1,0 +1,23 @@
+{
+    "project_name": "bolt-mui-project",
+    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+    "pages_config": {
+        "home": {
+            "layout": "default",
+            "title": "Home"
+        }
+    },
+    "navigation_config": {
+        "items": [
+            {
+                "title": "Home",
+                "path": "/",
+                "icon": "Home"
+            }
+        ]
+    },
+    "enable_user_management": false,
+    "theme_mode": "dark",
+    "components": ["basic"],
+    "enable_landing_page": false
+}
