@@ -1,3 +1,4 @@
+{% raw %}
 import './code-highlight-block.css';
 
 import { useMemo } from 'react';
@@ -82,3 +83,4 @@ const components = {
     );
   },
 };
+{% endraw %}

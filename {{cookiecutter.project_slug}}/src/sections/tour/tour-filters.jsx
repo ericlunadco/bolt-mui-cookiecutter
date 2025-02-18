@@ -1,3 +1,4 @@
+{% raw %}
 import { useCallback } from 'react';
 
 import Box from '@mui/material/Box';
@@ -247,3 +248,4 @@ export function TourFilters({ open, onOpen, onClose, filters, options, canReset,
     </>
   );
 }
+{% endraw %}

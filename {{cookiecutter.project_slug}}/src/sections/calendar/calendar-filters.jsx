@@ -1,3 +1,4 @@
+{% raw %}
 import { useCallback } from 'react';
 import { orderBy } from 'es-toolkit';
 
@@ -207,3 +208,4 @@ export function CalendarFilters({
     </Drawer>
   );
 }
+{% endraw %}

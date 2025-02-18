@@ -1,3 +1,4 @@
+{% raw %}
 import { useState } from 'react';
 import { varAlpha } from 'minimal-shared/utils';
 import { useFormContext } from 'react-hook-form';
@@ -199,3 +200,4 @@ function parseValue(values, key) {
   }
   return JSON.stringify(values[key], null, 2) || '---';
 }
+{% endraw %}

@@ -1,3 +1,4 @@
+{% raw %}
 import { merge } from 'es-toolkit';
 import { useBoolean } from 'minimal-shared/hooks';
 
@@ -196,3 +197,4 @@ export function DashboardLayout({ sx, cssVars, children, slotProps, layoutQuery 
     </LayoutSection>
   );
 }
+{% endraw %}

@@ -1,3 +1,4 @@
+{% raw %}
 import { m } from 'framer-motion';
 
 import Badge from '@mui/material/Badge';
@@ -46,3 +47,4 @@ export function SettingsButton({ sx, ...other }) {
     </IconButton>
   );
 }
+{% endraw %}

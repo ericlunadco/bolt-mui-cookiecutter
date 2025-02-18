@@ -1,3 +1,4 @@
+{% raw %}
 import { m } from 'framer-motion';
 import { useState, useCallback } from 'react';
 import { useBoolean } from 'minimal-shared/hooks';
@@ -165,3 +166,4 @@ export function NotificationsDrawer({ data = [], sx, ...other }) {
     </>
   );
 }
+{% endraw %}

@@ -1,3 +1,4 @@
+{% raw %}
 import { useEffect, useCallback } from 'react';
 import { hasKeys, varAlpha } from 'minimal-shared/utils';
 
@@ -268,3 +269,4 @@ export function SettingsDrawer({ sx, defaultSettings }) {
     </Drawer>
   );
 }
+{% endraw %}

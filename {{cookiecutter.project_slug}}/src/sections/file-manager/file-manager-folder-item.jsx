@@ -1,3 +1,4 @@
+{% raw %}
 import { useState, useCallback } from 'react';
 import { useBoolean, usePopover, useCopyToClipboard } from 'minimal-shared/hooks';
 
@@ -311,3 +312,4 @@ export function FileManagerFolderItem({ sx, folder, selected, onSelect, onDelete
     </>
   );
 }
+{% endraw %}

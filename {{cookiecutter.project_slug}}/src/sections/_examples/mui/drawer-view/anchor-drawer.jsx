@@ -1,3 +1,4 @@
+{% raw %}
 import { useState, Fragment } from 'react';
 
 import Box from '@mui/material/Box';
@@ -92,3 +93,4 @@ export function AnchorDrawer() {
     </>
   );
 }
+{% endraw %}

@@ -1,3 +1,4 @@
+{% raw %}
 import { useMemo, useState, useEffect, useCallback } from 'react';
 
 import Box from '@mui/material/Box';
@@ -276,3 +277,4 @@ export function ChatNav({ loading, contacts, collapseNav, conversations, selecte
     </>
   );
 }
+{% endraw %}

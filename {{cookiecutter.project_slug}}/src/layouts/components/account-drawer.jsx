@@ -1,3 +1,4 @@
+{% raw %}
 import { varAlpha } from 'minimal-shared/utils';
 import { useBoolean } from 'minimal-shared/hooks';
 
@@ -203,3 +204,4 @@ export function AccountDrawer({ data = [], sx, ...other }) {
     </>
   );
 }
+{% endraw %}

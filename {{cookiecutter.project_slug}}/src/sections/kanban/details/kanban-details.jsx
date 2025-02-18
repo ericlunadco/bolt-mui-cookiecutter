@@ -1,3 +1,4 @@
+{% raw %}
 import dayjs from 'dayjs';
 import { useState, useCallback } from 'react';
 import { varAlpha } from 'minimal-shared/utils';
@@ -319,3 +320,4 @@ export function KanbanDetails({ task, open, onUpdateTask, onDeleteTask, onClose 
     </Drawer>
   );
 }
+{% endraw %}

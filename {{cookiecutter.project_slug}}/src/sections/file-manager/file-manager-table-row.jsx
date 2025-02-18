@@ -1,3 +1,4 @@
+{% raw %}
 import { useState, useCallback } from 'react';
 import { varAlpha } from 'minimal-shared/utils';
 import { useBoolean, usePopover, useDoubleClick, useCopyToClipboard } from 'minimal-shared/hooks';
@@ -284,3 +285,4 @@ export function FileManagerTableRow({ row, selected, onSelectRow, onDeleteRow })
     </>
   );
 }
+{% endraw %}

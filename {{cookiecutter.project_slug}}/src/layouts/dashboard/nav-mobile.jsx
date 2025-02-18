@@ -1,3 +1,4 @@
+{% raw %}
 import { useEffect } from 'react';
 import { mergeClasses } from 'minimal-shared/utils';
 
@@ -56,3 +57,4 @@ export function NavMobile({ data, open, onClose, slots, sx, className, ...other 
     </Drawer>
   );
 }
+{% endraw %}

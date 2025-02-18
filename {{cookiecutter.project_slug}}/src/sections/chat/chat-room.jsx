@@ -1,3 +1,4 @@
+{% raw %}
 import Box from '@mui/material/Box';
 import Drawer from '@mui/material/Drawer';
 
@@ -73,3 +74,4 @@ export function ChatRoom({ collapseNav, participants, messages, loading, sx, ...
     </>
   );
 }
+{% endraw %}

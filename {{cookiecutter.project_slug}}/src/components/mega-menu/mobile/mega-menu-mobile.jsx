@@ -1,3 +1,4 @@
+{% raw %}
 import { useEffect, cloneElement } from 'react';
 import { useBoolean } from 'minimal-shared/hooks';
 import { mergeClasses } from 'minimal-shared/utils';
@@ -114,3 +115,4 @@ export function MegaMenuMobile({
     </>
   );
 }
+{% endraw %}

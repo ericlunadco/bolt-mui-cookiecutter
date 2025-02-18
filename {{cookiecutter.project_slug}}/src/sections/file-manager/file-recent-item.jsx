@@ -1,3 +1,4 @@
+{% raw %}
 import { useState, useCallback } from 'react';
 import { useBoolean, usePopover, useCopyToClipboard } from 'minimal-shared/hooks';
 
@@ -230,3 +231,4 @@ export function FileRecentItem({ file, onDelete, sx, ...other }) {
     </>
   );
 }
+{% endraw %}

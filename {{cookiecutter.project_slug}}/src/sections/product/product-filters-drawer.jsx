@@ -1,3 +1,4 @@
+{% raw %}
 import { useCallback } from 'react';
 
 import Box from '@mui/material/Box';
@@ -310,3 +311,4 @@ function InputRange({ type, value, onChange: onFilters }) {
     </Box>
   );
 }
+{% endraw %}
