@@ -1,3 +1,4 @@
+{% raw %}
 import { Fragment } from 'react';
 import { mergeClasses } from 'minimal-shared/utils';
 import { m, useSpring, useTransform } from 'framer-motion';
@@ -116,3 +117,4 @@ const LinearRoot = styled(m.div)(({ theme }) => ({
   transformOrigin: '0%',
   backgroundColor: theme.vars.palette.text.primary,
 }));
+{% endraw %}

@@ -1,3 +1,4 @@
+{% raw %}
 import Autoplay from 'embla-carousel-autoplay';
 
 import Box from '@mui/material/Box';
@@ -83,3 +84,4 @@ function CarouselItem({ item, ...other }) {
     </Box>
   );
 }
+{% endraw %}

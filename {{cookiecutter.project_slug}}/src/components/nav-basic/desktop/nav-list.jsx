@@ -1,3 +1,4 @@
+{% raw %}
 import { useEffect, useCallback } from 'react';
 import { usePopoverHover } from 'minimal-shared/hooks';
 import { isActiveLink, isExternalLink } from 'minimal-shared/utils';
@@ -146,3 +147,4 @@ function NavSubList({ data, render, cssVars, depth = 0, slotProps, enabledRootRe
     </NavUl>
   );
 }
+{% endraw %}

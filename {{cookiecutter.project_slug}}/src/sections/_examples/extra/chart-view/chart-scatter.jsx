@@ -1,3 +1,4 @@
+{% raw %}
 import { Chart, useChart } from 'src/components/chart';
 
 // ----------------------------------------------------------------------
@@ -12,3 +13,4 @@ export function ChartScatter({ chart }) {
 
   return <Chart type="scatter" series={chart.series} options={chartOptions} sx={{ height: 350 }} />;
 }
+{% endraw %}

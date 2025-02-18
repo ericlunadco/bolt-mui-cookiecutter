@@ -1,3 +1,4 @@
+{% raw %}
 import { Fragment } from 'react';
 
 import Portal from '@mui/material/Portal';
@@ -30,3 +31,4 @@ const LoadingContent = styled('div')(({ theme }) => ({
   paddingLeft: theme.spacing(5),
   paddingRight: theme.spacing(5),
 }));
+{% endraw %}

@@ -1,3 +1,4 @@
+{% raw %}
 import { m } from 'framer-motion';
 import { varAlpha } from 'minimal-shared/utils';
 
@@ -305,3 +306,4 @@ const TESTIMONIALS = [
     postedAt: 'September 19, 2023 23:15:30',
   },
 ];
+{% endraw %}

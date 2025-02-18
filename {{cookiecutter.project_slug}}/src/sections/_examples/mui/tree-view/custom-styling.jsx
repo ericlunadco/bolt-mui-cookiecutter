@@ -1,3 +1,4 @@
+{% raw %}
 import { varAlpha } from 'minimal-shared/utils';
 
 import { styled } from '@mui/material/styles';
@@ -76,3 +77,4 @@ const ITEMS = [
     ],
   },
 ];
+{% endraw %}

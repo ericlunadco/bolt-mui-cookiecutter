@@ -1,3 +1,4 @@
+{% raw %}
 import { uuidv4 } from 'minimal-shared/utils';
 import { useMemo, useState, useCallback } from 'react';
 
@@ -86,3 +87,4 @@ export function KanbanTaskAdd({ status, openAddTask, onAddTask, onCloseAddTask }
     </ClickAwayListener>
   );
 }
+{% endraw %}

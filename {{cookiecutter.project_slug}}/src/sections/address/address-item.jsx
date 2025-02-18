@@ -1,3 +1,4 @@
+{% raw %}
 import Box from '@mui/material/Box';
 import Stack from '@mui/material/Stack';
 import Paper from '@mui/material/Paper';
@@ -51,3 +52,4 @@ export function AddressItem({ address, action, sx, ...other }) {
     </Paper>
   );
 }
+{% endraw %}

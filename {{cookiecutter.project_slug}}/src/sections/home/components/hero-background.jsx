@@ -1,3 +1,4 @@
+{% raw %}
 import { m } from 'framer-motion';
 import { varAlpha } from 'minimal-shared/utils';
 
@@ -130,3 +131,4 @@ export function HeroBackground({ sx, ...other }) {
     </MotionContainer>
   );
 }
+{% endraw %}

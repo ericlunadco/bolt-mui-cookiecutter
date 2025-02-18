@@ -1,3 +1,4 @@
+{% raw %}
 import Box from '@mui/material/Box';
 import { fabClasses } from '@mui/material/Fab';
 import { buttonClasses } from '@mui/material/Button';
@@ -105,3 +106,4 @@ export function ButtonView() {
     />
   );
 }
+{% endraw %}

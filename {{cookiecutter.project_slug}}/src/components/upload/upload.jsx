@@ -1,3 +1,4 @@
+{% raw %}
 import { useDropzone } from 'react-dropzone';
 import { varAlpha, mergeClasses } from 'minimal-shared/utils';
 
@@ -122,3 +123,4 @@ export function Upload({
     </Box>
   );
 }
+{% endraw %}

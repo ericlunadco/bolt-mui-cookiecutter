@@ -1,3 +1,4 @@
+{% raw %}
 import Paper from '@mui/material/Paper';
 import Skeleton from '@mui/material/Skeleton';
 
@@ -28,3 +29,4 @@ export function KanbanColumnSkeleton({ itemCount = 3, sx, ...other }) {
     </Paper>
   ));
 }
+{% endraw %}

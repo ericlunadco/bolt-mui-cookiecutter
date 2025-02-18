@@ -1,3 +1,4 @@
+{% raw %}
 import { varAlpha, mergeClasses } from 'minimal-shared/utils';
 
 import Box from '@mui/material/Box';
@@ -49,3 +50,4 @@ export function NavHorizontal({ sx, data, className, layoutQuery = 'md', ...othe
     </Box>
   );
 }
+{% endraw %}

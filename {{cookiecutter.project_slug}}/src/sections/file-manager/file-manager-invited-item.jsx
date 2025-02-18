@@ -1,3 +1,4 @@
+{% raw %}
 import { useState, useCallback } from 'react';
 import { usePopover } from 'minimal-shared/hooks';
 
@@ -109,3 +110,4 @@ export function FileManagerInvitedItem({ person }) {
     </>
   );
 }
+{% endraw %}

@@ -1,3 +1,4 @@
+{% raw %}
 import { useCallback } from 'react';
 import { kebabCase } from 'es-toolkit';
 import { varAlpha } from 'minimal-shared/utils';
@@ -195,3 +196,4 @@ const LayoutHero = styled('section')(({ theme }) => {
     '&::before': backgroundStyles,
   };
 });
+{% endraw %}

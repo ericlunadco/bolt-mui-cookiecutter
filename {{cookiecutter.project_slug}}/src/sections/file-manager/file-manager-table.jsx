@@ -1,3 +1,4 @@
+{% raw %}
 import Box from '@mui/material/Box';
 import Table from '@mui/material/Table';
 import Tooltip from '@mui/material/Tooltip';
@@ -168,3 +169,4 @@ export function FileManagerTable({
     </>
   );
 }
+{% endraw %}

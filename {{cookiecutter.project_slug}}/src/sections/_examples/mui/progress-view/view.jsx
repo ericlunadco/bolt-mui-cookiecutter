@@ -1,3 +1,4 @@
+{% raw %}
 import { useRef, useState, useEffect } from 'react';
 
 import Box from '@mui/material/Box';
@@ -98,3 +99,4 @@ export function ProgressView() {
     />
   );
 }
+{% endraw %}

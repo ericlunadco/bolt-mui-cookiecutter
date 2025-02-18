@@ -1,3 +1,4 @@
+{% raw %}
 import Paper from '@mui/material/Paper';
 
 import { NavSectionHorizontal } from 'src/components/nav-section';
@@ -35,3 +36,4 @@ export function NavHorizontal() {
     </Paper>
   );
 }
+{% endraw %}

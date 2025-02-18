@@ -1,3 +1,4 @@
+{% raw %}
 import Box from '@mui/material/Box';
 import Switch from '@mui/material/Switch';
 import TablePagination from '@mui/material/TablePagination';
@@ -38,3 +39,4 @@ export function TablePaginationCustom({
     </Box>
   );
 }
+{% endraw %}

@@ -1,3 +1,4 @@
+{% raw %}
 import { m } from 'framer-motion';
 
 import Avatar from '@mui/material/Avatar';
@@ -32,3 +33,4 @@ export function AccountButton({ photoURL, displayName, sx, ...other }) {
     </IconButton>
   );
 }
+{% endraw %}

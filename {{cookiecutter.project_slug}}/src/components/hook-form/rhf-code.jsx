@@ -1,3 +1,4 @@
+{% raw %}
 import { MuiOtpInput } from 'mui-one-time-password-input';
 import { Controller, useFormContext } from 'react-hook-form';
 
@@ -64,3 +65,4 @@ export function RHFCode({
     />
   );
 }
+{% endraw %}

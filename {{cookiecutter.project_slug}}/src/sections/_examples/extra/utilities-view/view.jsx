@@ -1,3 +1,4 @@
+{% raw %}
 import Box from '@mui/material/Box';
 
 import { Styled } from './styled';
@@ -85,3 +86,4 @@ export function UtilitiesView() {
     />
   );
 }
+{% endraw %}

@@ -1,3 +1,4 @@
+{% raw %}
 import { useRef, useState, useEffect, useCallback } from 'react';
 import {
   arrayMove,
@@ -389,3 +390,4 @@ export function KanbanView() {
     </DashboardContent>
   );
 }
+{% endraw %}

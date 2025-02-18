@@ -1,3 +1,4 @@
+{% raw %}
 import { useId } from 'react';
 import { DragOverlay as DndDragOverlay, defaultDropAnimationSideEffects } from '@dnd-kit/core';
 
@@ -63,3 +64,4 @@ function ColumnOverlay({ column, tasks, sx }) {
 function TaskItemOverlay({ task, sx }) {
   return <ItemBase task={task} sx={sx} stateProps={{ dragOverlay: true }} />;
 }
+{% endraw %}

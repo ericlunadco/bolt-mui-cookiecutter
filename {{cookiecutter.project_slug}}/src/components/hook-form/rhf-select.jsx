@@ -1,3 +1,4 @@
+{% raw %}
 import { merge } from 'es-toolkit';
 import { Controller, useFormContext } from 'react-hook-form';
 
@@ -153,3 +154,4 @@ export function RHFMultiSelect({
     />
   );
 }
+{% endraw %}

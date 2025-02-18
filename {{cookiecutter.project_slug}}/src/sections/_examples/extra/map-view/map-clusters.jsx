@@ -1,3 +1,4 @@
+{% raw %}
 import { useRef } from 'react';
 import { Layer, Source } from 'react-map-gl';
 
@@ -91,3 +92,4 @@ const unclusteredPointLayer = {
     'circle-stroke-color': '#FFFFFF',
   },
 };
+{% endraw %}

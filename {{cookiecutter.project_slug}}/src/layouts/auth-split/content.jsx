@@ -1,3 +1,4 @@
+{% raw %}
 import { mergeClasses } from 'minimal-shared/utils';
 
 import Box from '@mui/material/Box';
@@ -39,3 +40,4 @@ export function AuthSplitContent({ sx, children, className, layoutQuery = 'md', 
     </Box>
   );
 }
+{% endraw %}

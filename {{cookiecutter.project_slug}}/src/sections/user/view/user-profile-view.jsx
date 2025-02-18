@@ -1,3 +1,4 @@
+{% raw %}
 import { useState, useCallback } from 'react';
 
 import Box from '@mui/material/Box';
@@ -133,3 +134,4 @@ export function UserProfileView() {
     </DashboardContent>
   );
 }
+{% endraw %}

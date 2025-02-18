@@ -1,3 +1,4 @@
+{% raw %}
 import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
 import IconButton from '@mui/material/IconButton';
@@ -84,3 +85,4 @@ export function ProfileGallery({ gallery }) {
     </>
   );
 }
+{% endraw %}

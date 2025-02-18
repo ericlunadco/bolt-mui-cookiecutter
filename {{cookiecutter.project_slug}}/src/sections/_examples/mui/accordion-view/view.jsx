@@ -1,3 +1,4 @@
+{% raw %}
 import { useState } from 'react';
 
 import Accordion from '@mui/material/Accordion';
@@ -89,3 +90,4 @@ export function AccordionView() {
     />
   );
 }
+{% endraw %}

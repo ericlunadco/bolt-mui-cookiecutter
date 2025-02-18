@@ -1,3 +1,4 @@
+{% raw %}
 import { useFormContext } from 'react-hook-form';
 
 import Box from '@mui/material/Box';
@@ -47,3 +48,4 @@ export function InvoiceNewEditStatusDate() {
     </Box>
   );
 }
+{% endraw %}

@@ -1,3 +1,4 @@
+{% raw %}
 import { OrganizationalChart } from 'src/components/organizational-chart';
 
 import { GroupNode } from './group-node';
@@ -73,3 +74,4 @@ export function OrganizationalChartView() {
     />
   );
 }
+{% endraw %}

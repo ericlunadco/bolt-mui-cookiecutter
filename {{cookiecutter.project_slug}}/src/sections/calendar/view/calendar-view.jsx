@@ -1,3 +1,4 @@
+{% raw %}
 import Calendar from '@fullcalendar/react';
 import listPlugin from '@fullcalendar/list';
 import dayGridPlugin from '@fullcalendar/daygrid';
@@ -254,3 +255,4 @@ function applyFilter({ inputData, filters, dateError }) {
 
   return inputData;
 }
+{% endraw %}

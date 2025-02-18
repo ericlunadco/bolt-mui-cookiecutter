@@ -1,3 +1,4 @@
+{% raw %}
 import { merge } from 'es-toolkit';
 
 import Box from '@mui/material/Box';
@@ -136,3 +137,4 @@ const backgroundStyles = (theme) => ({
     opacity: 0.08,
   }),
 });
+{% endraw %}

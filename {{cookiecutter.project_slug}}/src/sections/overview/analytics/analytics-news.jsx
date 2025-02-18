@@ -1,3 +1,4 @@
+{% raw %}
 import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
 import Link from '@mui/material/Link';
@@ -82,3 +83,4 @@ function Item({ item, sx, ...other }) {
     </Box>
   );
 }
+{% endraw %}

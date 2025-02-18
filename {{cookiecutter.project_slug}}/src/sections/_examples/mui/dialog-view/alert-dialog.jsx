@@ -1,3 +1,4 @@
+{% raw %}
 import { useBoolean } from 'minimal-shared/hooks';
 
 import Button from '@mui/material/Button';
@@ -37,3 +38,4 @@ export function AlertDialog() {
     </>
   );
 }
+{% endraw %}

@@ -1,3 +1,4 @@
+{% raw %}
 import { useRef, useCallback } from 'react';
 import { useBoolean } from 'minimal-shared/hooks';
 import { varAlpha, isActiveLink, isExternalLink } from 'minimal-shared/utils';
@@ -90,3 +91,4 @@ export function NavList({ data, sx, ...other }) {
     </NavLi>
   );
 }
+{% endraw %}

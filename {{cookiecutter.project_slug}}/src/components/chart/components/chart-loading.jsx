@@ -1,3 +1,4 @@
+{% raw %}
 import { mergeClasses } from 'minimal-shared/utils';
 
 import Box from '@mui/material/Box';
@@ -43,3 +44,4 @@ export function ChartLoading({ sx, className, type, ...other }) {
     </Box>
   );
 }
+{% endraw %}

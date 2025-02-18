@@ -1,3 +1,4 @@
+{% raw %}
 import Box from '@mui/material/Box';
 import Step from '@mui/material/Step';
 import Stepper from '@mui/material/Stepper';
@@ -75,3 +76,4 @@ function StepIcon({ active, completed }) {
     </Box>
   );
 }
+{% endraw %}

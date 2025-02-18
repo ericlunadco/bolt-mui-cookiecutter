@@ -1,3 +1,4 @@
+{% raw %}
 import Card from '@mui/material/Card';
 import Timeline from '@mui/lab/Timeline';
 import TimelineDot from '@mui/lab/TimelineDot';
@@ -56,3 +57,4 @@ function Item({ item, lastItem, ...other }) {
     </TimelineItem>
   );
 }
+{% endraw %}

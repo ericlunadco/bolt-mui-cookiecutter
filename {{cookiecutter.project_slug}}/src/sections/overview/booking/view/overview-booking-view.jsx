@@ -1,3 +1,4 @@
+{% raw %}
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid2';
 
@@ -183,3 +184,4 @@ export function OverviewBookingView() {
     </DashboardContent>
   );
 }
+{% endraw %}

@@ -1,3 +1,4 @@
+{% raw %}
 import { z as zod } from 'zod';
 import { useForm } from 'react-hook-form';
 import { useState, useCallback } from 'react';
@@ -402,3 +403,4 @@ export function ProductNewEditForm({ currentProduct }) {
     </Form>
   );
 }
+{% endraw %}

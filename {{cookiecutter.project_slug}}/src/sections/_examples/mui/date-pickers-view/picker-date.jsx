@@ -1,3 +1,4 @@
+{% raw %}
 import dayjs from 'dayjs';
 import { useState } from 'react';
 
@@ -93,3 +94,4 @@ export function PickerDate() {
     </Box>
   );
 }
+{% endraw %}

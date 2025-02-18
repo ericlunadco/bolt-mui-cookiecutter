@@ -1,3 +1,4 @@
+{% raw %}
 import { useState, useEffect } from 'react';
 
 import Box from '@mui/material/Box';
@@ -186,3 +187,4 @@ function applyFilter({ inputData, comparator }) {
 
   return inputData;
 }
+{% endraw %}

@@ -1,3 +1,4 @@
+{% raw %}
 import { useTheme, alpha as hexAlpha } from '@mui/material/styles';
 
 import { Chart, useChart } from 'src/components/chart';
@@ -24,3 +25,4 @@ export function ChartLine({ chart }) {
 
   return <Chart type="line" series={chart.series} options={chartOptions} sx={{ height: 320 }} />;
 }
+{% endraw %}

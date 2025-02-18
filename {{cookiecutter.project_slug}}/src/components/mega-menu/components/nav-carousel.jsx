@@ -1,3 +1,4 @@
+{% raw %}
 import { mergeClasses } from 'minimal-shared/utils';
 
 import Link from '@mui/material/Link';
@@ -83,3 +84,4 @@ const CarouselItemTitle = styled('span')(({ theme }) => ({
   ...theme.mixins.maxLine({ line: 2, persistent: theme.typography.caption }),
   fontWeight: theme.typography.fontWeightSemiBold,
 }));
+{% endraw %}

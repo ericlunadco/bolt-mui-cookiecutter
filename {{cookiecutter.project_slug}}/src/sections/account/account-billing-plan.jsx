@@ -1,3 +1,4 @@
+{% raw %}
 import { useState, useCallback } from 'react';
 import { useBoolean } from 'minimal-shared/hooks';
 
@@ -225,3 +226,4 @@ export function AccountBillingPlan({ cardList, addressBook, plans }) {
     </>
   );
 }
+{% endraw %}

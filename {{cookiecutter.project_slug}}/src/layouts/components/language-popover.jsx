@@ -1,3 +1,4 @@
+{% raw %}
 import { m } from 'framer-motion';
 import { useCallback } from 'react';
 import { usePopover } from 'minimal-shared/hooks';
@@ -71,3 +72,4 @@ export function LanguagePopover({ data = [], sx, ...other }) {
     </>
   );
 }
+{% endraw %}

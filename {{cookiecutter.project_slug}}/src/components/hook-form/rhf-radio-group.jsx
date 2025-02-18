@@ -1,3 +1,4 @@
+{% raw %}
 import { Controller, useFormContext } from 'react-hook-form';
 
 import Radio from '@mui/material/Radio';
@@ -68,3 +69,4 @@ export function RHFRadioGroup({ sx, name, label, options, helperText, slotProps,
     />
   );
 }
+{% endraw %}

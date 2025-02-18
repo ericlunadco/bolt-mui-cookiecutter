@@ -1,3 +1,4 @@
+{% raw %}
 import { varAlpha } from 'minimal-shared/utils';
 
 import Box from '@mui/material/Box';
@@ -65,3 +66,4 @@ export function ProfileCover({ sx, name, role, coverUrl, avatarUrl, ...other }) 
     </Box>
   );
 }
+{% endraw %}

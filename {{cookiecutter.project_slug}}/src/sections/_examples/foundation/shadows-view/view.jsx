@@ -1,3 +1,4 @@
+{% raw %}
 import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 import { useTheme } from '@mui/material/styles';
@@ -140,3 +141,4 @@ function ShadowCard({ sx, title }) {
     </Paper>
   );
 }
+{% endraw %}

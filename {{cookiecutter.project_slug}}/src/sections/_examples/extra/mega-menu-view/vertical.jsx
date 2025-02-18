@@ -1,3 +1,4 @@
+{% raw %}
 import { varAlpha } from 'minimal-shared/utils';
 
 import Box from '@mui/material/Box';
@@ -66,3 +67,4 @@ export function DemoMegaMenuVertical() {
     </Box>
   );
 }
+{% endraw %}

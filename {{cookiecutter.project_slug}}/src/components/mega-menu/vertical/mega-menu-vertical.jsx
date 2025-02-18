@@ -1,3 +1,4 @@
+{% raw %}
 import { mergeClasses } from 'minimal-shared/utils';
 import { useClientRect } from 'minimal-shared/hooks';
 
@@ -56,3 +57,4 @@ export function MegaMenuVertical({
     </Nav>
   );
 }
+{% endraw %}

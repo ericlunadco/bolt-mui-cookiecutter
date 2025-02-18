@@ -1,3 +1,4 @@
+{% raw %}
 import { useCallback } from 'react';
 import { usePopover } from 'minimal-shared/hooks';
 
@@ -130,3 +131,4 @@ export function ChatHeaderDetail({ collapseNav, participants, loading }) {
     </>
   );
 }
+{% endraw %}

@@ -1,3 +1,4 @@
+{% raw %}
 import { useTheme } from '@mui/material/styles';
 
 import { Chart, useChart } from 'src/components/chart';
@@ -25,3 +26,4 @@ export function ChartHeatmap({ chart }) {
 
   return <Chart type="heatmap" series={chart.series} options={chartOptions} sx={{ height: 320 }} />;
 }
+{% endraw %}

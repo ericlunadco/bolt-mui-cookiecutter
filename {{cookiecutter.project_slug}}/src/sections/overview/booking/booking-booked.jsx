@@ -1,3 +1,4 @@
+{% raw %}
 import { varAlpha } from 'minimal-shared/utils';
 
 import Box from '@mui/material/Box';
@@ -56,3 +57,4 @@ export function BookingBooked({ title, subheader, data, sx, ...other }) {
     </Card>
   );
 }
+{% endraw %}

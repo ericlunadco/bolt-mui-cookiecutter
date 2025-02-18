@@ -1,3 +1,4 @@
+{% raw %}
 import { varAlpha } from 'minimal-shared/utils';
 import { useRef, useState, useCallback } from 'react';
 
@@ -213,3 +214,4 @@ export function ProfilePostItem({ post }) {
     </Card>
   );
 }
+{% endraw %}

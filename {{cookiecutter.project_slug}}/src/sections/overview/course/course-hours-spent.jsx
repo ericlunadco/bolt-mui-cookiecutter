@@ -1,3 +1,4 @@
+{% raw %}
 import { useState, useCallback } from 'react';
 
 import Card from '@mui/material/Card';
@@ -60,3 +61,4 @@ export function CourseHoursSpent({ title, subheader, chart, sx, ...other }) {
     </Card>
   );
 }
+{% endraw %}

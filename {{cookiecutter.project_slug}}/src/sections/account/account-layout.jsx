@@ -1,3 +1,4 @@
+{% raw %}
 import { removeLastSlash } from 'minimal-shared/utils';
 
 import Tab from '@mui/material/Tab';
@@ -76,3 +77,4 @@ export function AccountLayout({ children, ...other }) {
     </DashboardContent>
   );
 }
+{% endraw %}

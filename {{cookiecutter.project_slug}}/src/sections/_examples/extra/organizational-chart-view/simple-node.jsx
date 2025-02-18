@@ -1,3 +1,4 @@
+{% raw %}
 import { varAlpha } from 'minimal-shared/utils';
 
 import Box from '@mui/material/Box';
@@ -34,3 +35,4 @@ export function SimpleNode({ name, role, sx }) {
     </Box>
   );
 }
+{% endraw %}

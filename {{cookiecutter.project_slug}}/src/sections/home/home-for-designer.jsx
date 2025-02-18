@@ -1,3 +1,4 @@
+{% raw %}
 import { m } from 'framer-motion';
 import { varAlpha } from 'minimal-shared/utils';
 
@@ -219,3 +220,4 @@ const renderBottomBorder = () => (
     ]}
   />
 );
+{% endraw %}

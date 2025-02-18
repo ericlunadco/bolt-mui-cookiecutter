@@ -1,3 +1,4 @@
+{% raw %}
 import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
 import IconButton from '@mui/material/IconButton';
@@ -47,3 +48,4 @@ export function MailHeader({ onOpenNav, onOpenMail, sx, ...other }) {
     </Box>
   );
 }
+{% endraw %}

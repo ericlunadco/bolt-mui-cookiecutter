@@ -1,3 +1,4 @@
+{% raw %}
 import Box from '@mui/material/Box';
 import Pagination from '@mui/material/Pagination';
 
@@ -50,3 +51,4 @@ export function PostCommentList({ comments = [] }) {
     </>
   );
 }
+{% endraw %}

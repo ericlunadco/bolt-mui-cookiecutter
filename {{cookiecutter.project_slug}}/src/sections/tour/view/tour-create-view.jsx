@@ -1,3 +1,4 @@
+{% raw %}
 import { paths } from 'src/routes/paths';
 
 import { DashboardContent } from 'src/layouts/dashboard';
@@ -25,3 +26,4 @@ export function TourCreateView() {
     </DashboardContent>
   );
 }
+{% endraw %}

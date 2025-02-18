@@ -1,3 +1,4 @@
+{% raw %}
 import { mergeClasses } from 'minimal-shared/utils';
 
 import { useTheme } from '@mui/material/styles';
@@ -42,3 +43,4 @@ export function MegaMenuHorizontal({
     </Nav>
   );
 }
+{% endraw %}

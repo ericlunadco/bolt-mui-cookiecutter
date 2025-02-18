@@ -1,3 +1,4 @@
+{% raw %}
 import Pagination, { paginationClasses } from '@mui/material/Pagination';
 
 import { ProductReviewItem } from './product-review-item';
@@ -21,3 +22,4 @@ export function ProductReviewList({ reviews }) {
     </>
   );
 }
+{% endraw %}

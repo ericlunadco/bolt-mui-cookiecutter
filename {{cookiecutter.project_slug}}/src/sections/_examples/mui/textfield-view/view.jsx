@@ -1,3 +1,4 @@
+{% raw %}
 import Box from '@mui/material/Box';
 
 import { Textfields } from './textfield';
@@ -52,3 +53,4 @@ export function TextfieldView() {
     />
   );
 }
+{% endraw %}

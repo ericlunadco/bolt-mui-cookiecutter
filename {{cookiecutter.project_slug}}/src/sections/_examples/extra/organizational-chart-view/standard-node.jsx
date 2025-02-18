@@ -1,3 +1,4 @@
+{% raw %}
 import { usePopover } from 'minimal-shared/hooks';
 
 import Card from '@mui/material/Card';
@@ -95,3 +96,4 @@ export function StandardNode({ name, avatarUrl, role, sx }) {
     </>
   );
 }
+{% endraw %}

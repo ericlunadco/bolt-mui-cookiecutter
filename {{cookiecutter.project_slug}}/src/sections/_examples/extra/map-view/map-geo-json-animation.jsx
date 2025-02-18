@@ -1,3 +1,4 @@
+{% raw %}
 import { useState, useEffect } from 'react';
 import { Layer, Source } from 'react-map-gl';
 
@@ -55,3 +56,4 @@ function pointOnCircle({ center, angle, radius }) {
     coordinates: [center[0] + Math.cos(angle) * radius, center[1] + Math.sin(angle) * radius],
   };
 }
+{% endraw %}

@@ -1,3 +1,4 @@
+{% raw %}
 import Box from '@mui/material/Box';
 import ListItemButton from '@mui/material/ListItemButton';
 
@@ -61,3 +62,4 @@ export function MailNavItem({ selected, label, onClickNavItem, ...other }) {
     </Box>
   );
 }
+{% endraw %}

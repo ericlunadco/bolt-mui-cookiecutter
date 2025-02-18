@@ -1,3 +1,4 @@
+{% raw %}
 import { _mock } from 'src/_mock';
 
 import { CarouselFade } from './carousel-fade';
@@ -59,3 +60,4 @@ export function CarouselView() {
     />
   );
 }
+{% endraw %}

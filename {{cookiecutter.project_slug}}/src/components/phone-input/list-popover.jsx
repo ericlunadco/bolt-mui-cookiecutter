@@ -1,3 +1,4 @@
+{% raw %}
 import { useMemo } from 'react';
 import { usePopover } from 'minimal-shared/hooks';
 
@@ -193,3 +194,4 @@ function applyFilter({ inputData, query }) {
     [label, code, phone].some((field) => field?.toLowerCase().includes(query.toLowerCase()))
   );
 }
+{% endraw %}

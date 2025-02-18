@@ -1,3 +1,4 @@
+{% raw %}
 import { Fragment } from 'react';
 import { useTabs } from 'minimal-shared/hooks';
 
@@ -230,3 +231,4 @@ export function TabsView() {
     />
   );
 }
+{% endraw %}

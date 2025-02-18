@@ -1,3 +1,4 @@
+{% raw %}
 import Link from '@mui/material/Link';
 import Paper from '@mui/material/Paper';
 import Typography from '@mui/material/Typography';
@@ -73,3 +74,4 @@ export function DataGridView() {
     />
   );
 }
+{% endraw %}

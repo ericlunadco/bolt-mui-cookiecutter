@@ -1,3 +1,4 @@
+{% raw %}
 import { useCallback } from 'react';
 import { useForm, Controller } from 'react-hook-form';
 
@@ -308,3 +309,4 @@ export function ProductDetailsSummary({ items, product, onAddToCart, disableActi
     </Form>
   );
 }
+{% endraw %}

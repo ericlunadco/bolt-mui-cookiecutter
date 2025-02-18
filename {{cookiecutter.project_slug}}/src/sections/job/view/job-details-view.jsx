@@ -1,3 +1,4 @@
+{% raw %}
 import { useState, useCallback } from 'react';
 import { useTabs } from 'minimal-shared/hooks';
 
@@ -67,3 +68,4 @@ export function JobDetailsView({ job }) {
     </DashboardContent>
   );
 }
+{% endraw %}

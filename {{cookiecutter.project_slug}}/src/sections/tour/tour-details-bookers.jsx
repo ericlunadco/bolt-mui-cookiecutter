@@ -1,3 +1,4 @@
+{% raw %}
 import { useState, useCallback } from 'react';
 import { varAlpha } from 'minimal-shared/utils';
 
@@ -146,3 +147,4 @@ function BookerItem({ booker, selected, onSelected }) {
     </Card>
   );
 }
+{% endraw %}

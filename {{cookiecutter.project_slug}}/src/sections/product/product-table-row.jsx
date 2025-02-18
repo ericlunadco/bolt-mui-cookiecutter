@@ -1,3 +1,4 @@
+{% raw %}
 import Box from '@mui/material/Box';
 import Link from '@mui/material/Link';
 import Avatar from '@mui/material/Avatar';
@@ -87,3 +88,4 @@ export function RenderCellProduct({ params, href }) {
     </Box>
   );
 }
+{% endraw %}

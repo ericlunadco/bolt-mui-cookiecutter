@@ -1,3 +1,4 @@
+{% raw %}
 import { useState, useCallback } from 'react';
 
 import { Map, MapMarker, MapControls } from 'src/components/map';
@@ -43,3 +44,4 @@ export function MapDraggableMarkers({ sx, ...other }) {
     </Map>
   );
 }
+{% endraw %}

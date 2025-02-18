@@ -1,3 +1,4 @@
+{% raw %}
 import { CustomIcons } from './custom-icon';
 import { CustomStyling } from './custom-styling';
 import { BasicRichTree, BasicSimpleTree } from './basic';
@@ -53,3 +54,4 @@ export function TreeView() {
     />
   );
 }
+{% endraw %}

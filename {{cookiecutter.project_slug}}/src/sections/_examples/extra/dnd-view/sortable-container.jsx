@@ -1,3 +1,4 @@
+{% raw %}
 import { useRef, useState, useEffect } from 'react';
 import {
   arraySwap,
@@ -206,3 +207,4 @@ function SortableGridItem({ id, index, onRemove, getNewIndex }) {
     />
   );
 }
+{% endraw %}

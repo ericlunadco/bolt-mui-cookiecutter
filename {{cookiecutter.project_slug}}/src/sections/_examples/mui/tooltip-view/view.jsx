@@ -1,3 +1,4 @@
+{% raw %}
 import { m } from 'framer-motion';
 
 import Fab from '@mui/material/Fab';
@@ -166,3 +167,4 @@ export function TooltipView() {
     />
   );
 }
+{% endraw %}

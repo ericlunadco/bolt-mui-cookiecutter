@@ -1,3 +1,4 @@
+{% raw %}
 import { m } from 'framer-motion';
 import { forwardRef } from 'react';
 import { varAlpha } from 'minimal-shared/utils';
@@ -130,3 +131,4 @@ const LogoRotateBackground = styled(m.span)(({ theme }) => ({
     duration: theme.transitions.duration.shorter,
   }),
 }));
+{% endraw %}

@@ -1,3 +1,4 @@
+{% raw %}
 import { useMemo, useState, useCallback } from 'react';
 
 import { Map } from 'src/components/map';
@@ -107,3 +108,4 @@ export function MapSideBySide({ sx, ...other }) {
     </div>
   );
 }
+{% endraw %}

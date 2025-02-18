@@ -1,3 +1,4 @@
+{% raw %}
 import { itemClasses } from './classes';
 import { ComponentLayout } from '../../layout';
 import { SortableContainer } from './sortable-container';
@@ -32,3 +33,4 @@ export function DndView() {
     />
   );
 }
+{% endraw %}

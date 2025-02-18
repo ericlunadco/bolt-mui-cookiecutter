@@ -1,3 +1,4 @@
+{% raw %}
 import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
 import Table from '@mui/material/Table';
@@ -73,3 +74,4 @@ function RowItem({ row }) {
     </TableRow>
   );
 }
+{% endraw %}

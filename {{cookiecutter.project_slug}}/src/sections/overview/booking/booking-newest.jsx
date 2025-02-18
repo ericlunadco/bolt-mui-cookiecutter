@@ -1,3 +1,4 @@
+{% raw %}
 import Box from '@mui/material/Box';
 import Avatar from '@mui/material/Avatar';
 import CardHeader from '@mui/material/CardHeader';
@@ -118,3 +119,4 @@ function Item({ item, sx, ...other }) {
     </Box>
   );
 }
+{% endraw %}

@@ -1,3 +1,4 @@
+{% raw %}
 import { useBoolean } from 'minimal-shared/hooks';
 import { useRef, useEffect, useCallback } from 'react';
 import { isActiveLink, isExternalLink } from 'minimal-shared/utils';
@@ -102,3 +103,4 @@ function NavSubList({ data, render, depth = 0, slotProps, enabledRootRedirect })
     </NavUl>
   );
 }
+{% endraw %}

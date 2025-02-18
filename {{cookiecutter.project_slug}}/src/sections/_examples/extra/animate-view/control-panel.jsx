@@ -1,3 +1,4 @@
+{% raw %}
 import Box from '@mui/material/Box';
 import Radio from '@mui/material/Radio';
 import RadioGroup from '@mui/material/RadioGroup';
@@ -55,3 +56,4 @@ export function ControlPanel({ sx, options, selectedVariant, onChangeVariant, ..
     </Box>
   );
 }
+{% endraw %}

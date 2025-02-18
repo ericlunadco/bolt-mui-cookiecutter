@@ -1,3 +1,4 @@
+{% raw %}
 import { Layer, Source } from 'react-map-gl';
 import { useMemo, useState, useEffect } from 'react';
 
@@ -80,3 +81,4 @@ function filterFeaturesByDay(featureCollection, time) {
   });
   return { type: 'FeatureCollection', features };
 }
+{% endraw %}

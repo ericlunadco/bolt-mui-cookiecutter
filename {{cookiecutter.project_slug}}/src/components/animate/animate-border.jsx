@@ -1,3 +1,4 @@
+{% raw %}
 import { mergeClasses } from 'minimal-shared/utils';
 import { useRef, useState, useEffect, forwardRef } from 'react';
 import {
@@ -228,3 +229,4 @@ function useComputedElementStyles(theme, ref) {
     borderRadius: `${computedStyles?.borderTopLeftRadius} ${computedStyles?.borderTopRightRadius} ${computedStyles?.borderBottomRightRadius} ${computedStyles?.borderBottomLeftRadius}`,
   };
 }
+{% endraw %}

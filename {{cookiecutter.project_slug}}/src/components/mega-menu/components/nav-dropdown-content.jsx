@@ -1,3 +1,4 @@
+{% raw %}
 import Box from '@mui/material/Box';
 import Link from '@mui/material/Link';
 import Masonry from '@mui/lab/Masonry';
@@ -100,3 +101,4 @@ export function NavDropdownContent({ data, slotProps, isMultiList }) {
     </>
   );
 }
+{% endraw %}

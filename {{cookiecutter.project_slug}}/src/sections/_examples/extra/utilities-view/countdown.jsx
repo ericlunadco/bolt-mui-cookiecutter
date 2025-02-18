@@ -1,3 +1,4 @@
+{% raw %}
 import { useCountdownDate, useCountdownSeconds } from 'minimal-shared/hooks';
 
 import Box from '@mui/material/Box';
@@ -72,3 +73,4 @@ export function Countdown() {
     </>
   );
 }
+{% endraw %}

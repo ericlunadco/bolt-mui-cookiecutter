@@ -1,3 +1,4 @@
+{% raw %}
 import Tooltip from '@mui/material/Tooltip';
 
 import { Label } from 'src/components/label';
@@ -113,3 +114,4 @@ const DEMO_COMPONENTS = [
 export function LabelView() {
   return <ComponentLayout sectionData={DEMO_COMPONENTS} heroProps={{ heading: 'Label' }} />;
 }
+{% endraw %}

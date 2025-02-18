@@ -1,3 +1,4 @@
+{% raw %}
 import Box from '@mui/material/Box';
 import Switch from '@mui/material/Switch';
 import IconButton from '@mui/material/IconButton';
@@ -45,3 +46,4 @@ export function Toolbar({ sx, isText, isMulti, onRefresh, onChangeText, onChange
     </Box>
   );
 }
+{% endraw %}

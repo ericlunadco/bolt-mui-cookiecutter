@@ -1,3 +1,4 @@
+{% raw %}
 import { useState, useEffect, useCallback } from 'react';
 
 import Box from '@mui/material/Box';
@@ -96,3 +97,4 @@ export function FileManagerNewFolderDialog({
     </Dialog>
   );
 }
+{% endraw %}

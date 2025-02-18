@@ -1,3 +1,4 @@
+{% raw %}
 import parse from 'autosuggest-highlight/parse';
 import match from 'autosuggest-highlight/match';
 import { useDebounce } from 'minimal-shared/hooks';
@@ -156,3 +157,4 @@ function useSearchData(searchQuery) {
 
   return { searchResults, searchLoading };
 }
+{% endraw %}

@@ -1,3 +1,4 @@
+{% raw %}
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid2';
 import Stack from '@mui/material/Stack';
@@ -82,3 +83,4 @@ export function ProductDetailsSkeleton({ ...other }) {
     </Grid>
   );
 }
+{% endraw %}

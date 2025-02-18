@@ -1,3 +1,4 @@
+{% raw %}
 import { mergeClasses } from 'minimal-shared/utils';
 import { Children, forwardRef, isValidElement } from 'react';
 
@@ -146,3 +147,4 @@ const ThumbsContainer = styled('ul', {
     },
   ],
 }));
+{% endraw %}

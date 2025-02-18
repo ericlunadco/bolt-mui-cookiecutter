@@ -1,3 +1,4 @@
+{% raw %}
 import { useBoolean } from 'minimal-shared/hooks';
 
 import Box from '@mui/material/Box';
@@ -69,3 +70,4 @@ export function PostCommentItem({ name, avatarUrl, message, tagUser, postedAt, h
     </Box>
   );
 }
+{% endraw %}

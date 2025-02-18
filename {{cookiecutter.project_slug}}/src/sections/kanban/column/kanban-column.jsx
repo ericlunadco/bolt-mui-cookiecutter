@@ -1,3 +1,4 @@
+{% raw %}
 import { useCallback } from 'react';
 import { CSS } from '@dnd-kit/utilities';
 import { useBoolean } from 'minimal-shared/hooks';
@@ -116,3 +117,4 @@ export function KanbanColumn({ children, column, tasks, disabled, sx }) {
     />
   );
 }
+{% endraw %}

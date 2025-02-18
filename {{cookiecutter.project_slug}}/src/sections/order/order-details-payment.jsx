@@ -1,3 +1,4 @@
+{% raw %}
 import Box from '@mui/material/Box';
 import IconButton from '@mui/material/IconButton';
 import CardHeader from '@mui/material/CardHeader';
@@ -33,3 +34,4 @@ export function OrderDetailsPayment({ payment }) {
     </>
   );
 }
+{% endraw %}

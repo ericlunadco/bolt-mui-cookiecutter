@@ -1,3 +1,4 @@
+{% raw %}
 import { useRef, useState } from 'react';
 import { useClientRect } from 'minimal-shared/hooks';
 import { m, useSpring, useScroll, useTransform, useMotionValueEvent } from 'framer-motion';
@@ -199,3 +200,4 @@ const ScrollItem = styled(m.div)({
   backgroundRepeat: 'repeat-x',
   backgroundPosition: 'center center',
 });
+{% endraw %}

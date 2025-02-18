@@ -1,3 +1,4 @@
+{% raw %}
 import { orderBy } from 'es-toolkit';
 import { varAlpha } from 'minimal-shared/utils';
 
@@ -88,3 +89,4 @@ function Item({ item, index, sx, ...other }) {
     </Box>
   );
 }
+{% endraw %}

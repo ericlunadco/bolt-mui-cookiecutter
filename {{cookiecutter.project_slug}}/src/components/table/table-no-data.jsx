@@ -1,3 +1,4 @@
+{% raw %}
 import TableRow from '@mui/material/TableRow';
 import TableCell from '@mui/material/TableCell';
 
@@ -18,3 +19,4 @@ export function TableNoData({ notFound, sx }) {
     </TableRow>
   );
 }
+{% endraw %}

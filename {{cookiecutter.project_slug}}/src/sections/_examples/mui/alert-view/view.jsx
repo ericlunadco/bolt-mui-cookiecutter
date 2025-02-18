@@ -1,3 +1,4 @@
+{% raw %}
 import { varAlpha } from 'minimal-shared/utils';
 
 import Alert from '@mui/material/Alert';
@@ -141,3 +142,4 @@ export function AlertView() {
     />
   );
 }
+{% endraw %}

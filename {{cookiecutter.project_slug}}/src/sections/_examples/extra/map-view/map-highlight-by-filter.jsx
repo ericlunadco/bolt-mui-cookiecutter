@@ -1,3 +1,4 @@
+{% raw %}
 import { Layer, Source } from 'react-map-gl';
 import { useMemo, useState, useCallback } from 'react';
 
@@ -74,3 +75,4 @@ export function MapHighlightByFilter({ sx, ...other }) {
     </Map>
   );
 }
+{% endraw %}

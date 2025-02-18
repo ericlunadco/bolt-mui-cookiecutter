@@ -1,3 +1,4 @@
+{% raw %}
 import { TreeItem } from '@mui/x-tree-view/TreeItem';
 import { RichTreeView } from '@mui/x-tree-view/RichTreeView';
 import { SimpleTreeView } from '@mui/x-tree-view/SimpleTreeView';
@@ -45,3 +46,4 @@ export function BasicSimpleTree() {
     </SimpleTreeView>
   );
 }
+{% endraw %}

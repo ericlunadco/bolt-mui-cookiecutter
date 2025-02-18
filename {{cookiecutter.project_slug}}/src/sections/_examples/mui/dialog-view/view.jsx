@@ -1,3 +1,4 @@
+{% raw %}
 import { FormDialog } from './form-dialog';
 import { AlertDialog } from './alert-dialog';
 import { ScrollDialog } from './scroll-dialog';
@@ -81,3 +82,4 @@ export function DialogView() {
     />
   );
 }
+{% endraw %}

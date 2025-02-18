@@ -1,3 +1,4 @@
+{% raw %}
 import { isEqual } from 'es-toolkit';
 import { useState, useCallback } from 'react';
 
@@ -320,3 +321,4 @@ function ControlsPanel({ config, onChangeConfig, canReset, onReset }) {
     </Stack>
   );
 }
+{% endraw %}

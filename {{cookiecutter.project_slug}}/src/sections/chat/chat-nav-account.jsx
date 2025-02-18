@@ -1,3 +1,4 @@
+{% raw %}
 import { useState, useCallback } from 'react';
 import { usePopover } from 'minimal-shared/hooks';
 
@@ -143,3 +144,4 @@ export function ChatNavAccount() {
     </>
   );
 }
+{% endraw %}

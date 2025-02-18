@@ -1,3 +1,4 @@
+{% raw %}
 import Grid from '@mui/material/Grid2';
 import Button from '@mui/material/Button';
 import { useTheme } from '@mui/material/styles';
@@ -188,3 +189,4 @@ export function OverviewEcommerceView() {
     </DashboardContent>
   );
 }
+{% endraw %}

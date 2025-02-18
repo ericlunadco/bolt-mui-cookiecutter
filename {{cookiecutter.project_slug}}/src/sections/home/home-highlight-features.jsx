@@ -1,3 +1,4 @@
+{% raw %}
 import { useRef, useState } from 'react';
 import { varAlpha } from 'minimal-shared/utils';
 import { useClientRect } from 'minimal-shared/hooks';
@@ -259,3 +260,4 @@ function Item({ item, sx, ...other }) {
     </Box>
   );
 }
+{% endraw %}

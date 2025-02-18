@@ -1,3 +1,4 @@
+{% raw %}
 import Box from '@mui/material/Box';
 import Chip from '@mui/material/Chip';
 import Stack from '@mui/material/Stack';
@@ -193,3 +194,4 @@ export function Chips({ variant }) {
     </Box>
   );
 }
+{% endraw %}

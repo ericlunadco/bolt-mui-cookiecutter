@@ -1,3 +1,4 @@
+{% raw %}
 import { tabClasses } from '@mui/material/Tab';
 import Tabs, { tabsClasses } from '@mui/material/Tabs';
 
@@ -57,3 +58,4 @@ export function CustomTabs({ children, slotProps, sx, ...other }) {
     </Tabs>
   );
 }
+{% endraw %}

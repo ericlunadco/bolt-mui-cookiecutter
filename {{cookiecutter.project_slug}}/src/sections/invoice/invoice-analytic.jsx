@@ -1,3 +1,4 @@
+{% raw %}
 import { varAlpha } from 'minimal-shared/utils';
 
 import Box from '@mui/material/Box';
@@ -63,3 +64,4 @@ export function InvoiceAnalytic({ title, total, icon, color, percent, price }) {
     </Box>
   );
 }
+{% endraw %}

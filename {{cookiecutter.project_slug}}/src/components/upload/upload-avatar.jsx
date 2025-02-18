@@ -1,3 +1,4 @@
+{% raw %}
 import { useState, useEffect } from 'react';
 import { useDropzone } from 'react-dropzone';
 import { varAlpha, mergeClasses } from 'minimal-shared/utils';
@@ -131,3 +132,4 @@ export function UploadAvatar({ sx, error, value, disabled, helperText, className
     </>
   );
 }
+{% endraw %}

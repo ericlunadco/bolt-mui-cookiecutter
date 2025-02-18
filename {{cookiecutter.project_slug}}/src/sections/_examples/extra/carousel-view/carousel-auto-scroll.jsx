@@ -1,3 +1,4 @@
+{% raw %}
 import AutoScroll from 'embla-carousel-auto-scroll';
 
 import Box from '@mui/material/Box';
@@ -55,3 +56,4 @@ function CarouselItem({ item, index }) {
     </Box>
   );
 }
+{% endraw %}

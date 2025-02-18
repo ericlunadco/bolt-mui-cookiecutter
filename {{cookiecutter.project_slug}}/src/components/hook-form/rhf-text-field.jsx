@@ -1,3 +1,4 @@
+{% raw %}
 import { Controller, useFormContext } from 'react-hook-form';
 import { transformValue, transformValueOnBlur, transformValueOnChange } from 'minimal-shared/utils';
 
@@ -50,3 +51,4 @@ export function RHFTextField({ name, helperText, slotProps, type = 'text', ...ot
     />
   );
 }
+{% endraw %}

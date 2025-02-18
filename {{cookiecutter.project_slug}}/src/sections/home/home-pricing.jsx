@@ -1,3 +1,4 @@
+{% raw %}
 import { m } from 'framer-motion';
 import { useTabs } from 'minimal-shared/hooks';
 import { varAlpha } from 'minimal-shared/utils';
@@ -301,3 +302,4 @@ const PLANS = Array.from({ length: 3 }, (_, index) => ({
     `${CONFIG.assetsDir}/assets/icons/platforms/ic-figma.svg`,
   ],
 }));
+{% endraw %}

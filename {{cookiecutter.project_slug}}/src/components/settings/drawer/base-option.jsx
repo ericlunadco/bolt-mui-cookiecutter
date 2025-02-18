@@ -1,3 +1,4 @@
+{% raw %}
 import { varAlpha } from 'minimal-shared/utils';
 
 import Switch from '@mui/material/Switch';
@@ -81,3 +82,4 @@ const ItemLabel = styled('span')(({ theme }) => ({
   fontSize: theme.typography.pxToRem(13),
   fontWeight: theme.typography.fontWeightSemiBold,
 }));
+{% endraw %}

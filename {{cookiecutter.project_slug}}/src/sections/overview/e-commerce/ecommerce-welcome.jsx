@@ -1,3 +1,4 @@
+{% raw %}
 import { varAlpha } from 'minimal-shared/utils';
 
 import Box from '@mui/material/Box';
@@ -60,3 +61,4 @@ export function EcommerceWelcome({ title, description, action, img, sx, ...other
     </Box>
   );
 }
+{% endraw %}

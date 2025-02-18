@@ -1,3 +1,4 @@
+{% raw %}
 import { mergeClasses } from 'minimal-shared/utils';
 
 import { useTheme } from '@mui/material/styles';
@@ -84,3 +85,4 @@ function Group({ items, render, cssVars, slotProps, currentRole, enabledRootRedi
     </NavLi>
   );
 }
+{% endraw %}

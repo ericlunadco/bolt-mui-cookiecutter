@@ -1,3 +1,4 @@
+{% raw %}
 import { useState, useCallback } from 'react';
 import { varAlpha } from 'minimal-shared/utils';
 
@@ -94,3 +95,4 @@ export function PaginationItems() {
     </Stack>
   );
 }
+{% endraw %}

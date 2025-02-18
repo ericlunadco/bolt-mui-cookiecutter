@@ -1,3 +1,4 @@
+{% raw %}
 import { varAlpha } from 'minimal-shared/utils';
 import { usePopover } from 'minimal-shared/hooks';
 
@@ -170,3 +171,4 @@ export function GroupNode({ sx, name, role, depth, group, avatarUrl, totalChildr
     </>
   );
 }
+{% endraw %}

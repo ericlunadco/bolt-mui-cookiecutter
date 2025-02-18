@@ -1,3 +1,4 @@
+{% raw %}
 import { useBoolean } from 'minimal-shared/hooks';
 import { useId, useState, useCallback } from 'react';
 import {
@@ -312,3 +313,4 @@ function InputAmount({ value, sx, inputProps, ...other }) {
     />
   );
 }
+{% endraw %}

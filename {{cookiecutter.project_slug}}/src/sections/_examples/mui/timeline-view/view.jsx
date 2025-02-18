@@ -1,3 +1,4 @@
+{% raw %}
 import { varAlpha } from 'minimal-shared/utils';
 
 import Paper from '@mui/material/Paper';
@@ -244,3 +245,4 @@ export function TimelineView() {
     />
   );
 }
+{% endraw %}

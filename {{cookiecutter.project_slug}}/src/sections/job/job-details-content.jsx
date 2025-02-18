@@ -1,3 +1,4 @@
+{% raw %}
 import Box from '@mui/material/Box';
 import Chip from '@mui/material/Chip';
 import Card from '@mui/material/Card';
@@ -142,3 +143,4 @@ export function JobDetailsContent({ job, sx, ...other }) {
     </Grid>
   );
 }
+{% endraw %}

@@ -1,3 +1,4 @@
+{% raw %}
 import { varAlpha } from 'minimal-shared/utils';
 
 import Avatar from '@mui/material/Avatar';
@@ -90,3 +91,4 @@ export function AnimateAvatars() {
     </>
   );
 }
+{% endraw %}

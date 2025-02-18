@@ -1,3 +1,4 @@
+{% raw %}
 import Popover from '@mui/material/Popover';
 import { listClasses } from '@mui/material/List';
 import { menuItemClasses } from '@mui/material/MenuItem';
@@ -53,3 +54,4 @@ export function CustomPopover({ open, onClose, children, anchorEl, slotProps, ..
     </Popover>
   );
 }
+{% endraw %}

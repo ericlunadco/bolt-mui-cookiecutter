@@ -1,3 +1,4 @@
+{% raw %}
 import { useTheme } from '@mui/material/styles';
 
 import { NavList } from './nav-list';
@@ -41,3 +42,4 @@ export function NavBasicDesktop({
     </Nav>
   );
 }
+{% endraw %}

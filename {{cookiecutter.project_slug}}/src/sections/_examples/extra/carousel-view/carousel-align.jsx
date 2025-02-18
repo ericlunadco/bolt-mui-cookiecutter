@@ -1,3 +1,4 @@
+{% raw %}
 import Box from '@mui/material/Box';
 
 import {
@@ -57,3 +58,4 @@ function CarouselItem({ item, index }) {
     </Box>
   );
 }
+{% endraw %}

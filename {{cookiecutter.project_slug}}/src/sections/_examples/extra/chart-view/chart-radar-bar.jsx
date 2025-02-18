@@ -1,3 +1,4 @@
+{% raw %}
 import { useTheme } from '@mui/material/styles';
 
 import { Chart, useChart } from 'src/components/chart';
@@ -37,3 +38,4 @@ export function ChartRadarBar({ chart }) {
 
   return <Chart type="radar" series={chart.series} options={chartOptions} sx={{ height: 280 }} />;
 }
+{% endraw %}

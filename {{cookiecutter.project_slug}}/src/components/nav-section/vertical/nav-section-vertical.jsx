@@ -1,3 +1,4 @@
+{% raw %}
 import { useBoolean } from 'minimal-shared/hooks';
 import { mergeClasses } from 'minimal-shared/utils';
 
@@ -90,3 +91,4 @@ function Group({ items, render, subheader, slotProps, currentRole, enabledRootRe
     </NavLi>
   );
 }
+{% endraw %}

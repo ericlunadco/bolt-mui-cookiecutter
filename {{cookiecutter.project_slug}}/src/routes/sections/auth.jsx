@@ -1,3 +1,4 @@
+{% raw %}
 import { Outlet } from 'react-router';
 import { lazy, Suspense } from 'react';
 
@@ -282,3 +283,4 @@ export const authRoutes = [
     children: [authJwt, authAmplify, authFirebase, authAuth0, authSupabase],
   },
 ];
+{% endraw %}

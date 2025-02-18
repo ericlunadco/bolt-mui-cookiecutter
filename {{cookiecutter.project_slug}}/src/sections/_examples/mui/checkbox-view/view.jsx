@@ -1,3 +1,4 @@
+{% raw %}
 import { useState } from 'react';
 
 import Checkbox from '@mui/material/Checkbox';
@@ -284,3 +285,4 @@ export function CheckboxView() {
     />
   );
 }
+{% endraw %}

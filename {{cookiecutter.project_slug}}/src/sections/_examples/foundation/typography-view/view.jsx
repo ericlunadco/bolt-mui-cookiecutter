@@ -1,3 +1,4 @@
+{% raw %}
 import { useRef, useState, useEffect, useCallback } from 'react';
 
 import Box from '@mui/material/Box';
@@ -135,3 +136,4 @@ function BlockVariant({ variant }) {
     </ComponentBox>
   );
 }
+{% endraw %}

@@ -1,3 +1,4 @@
+{% raw %}
 import { hexToRgbChannel } from 'minimal-shared/utils';
 import { useCopyToClipboard } from 'minimal-shared/hooks';
 
@@ -132,3 +133,4 @@ function ColorCard({ varColor, hexColor, variation, sx, ...other }) {
     </Box>
   );
 }
+{% endraw %}

@@ -1,3 +1,4 @@
+{% raw %}
 import { CustomizedSteppers } from './customized-steppers';
 import { ComponentBox, ComponentLayout } from '../../layout';
 import { VerticalLinearStepper } from './vertical-linear-stepper';
@@ -59,3 +60,4 @@ export function StepperView() {
     />
   );
 }
+{% endraw %}

@@ -1,3 +1,4 @@
+{% raw %}
 import AutoHeight from 'embla-carousel-auto-height';
 
 import Box from '@mui/material/Box';
@@ -51,3 +52,4 @@ function CarouselItem({ item, index }) {
     </Box>
   );
 }
+{% endraw %}

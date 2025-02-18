@@ -1,3 +1,4 @@
+{% raw %}
 import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 import Button from '@mui/material/Button';
@@ -47,3 +48,4 @@ export function KanbanDetailsCommentInput() {
     </Box>
   );
 }
+{% endraw %}

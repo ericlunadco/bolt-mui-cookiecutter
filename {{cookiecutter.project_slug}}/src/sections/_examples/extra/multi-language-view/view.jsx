@@ -1,3 +1,4 @@
+{% raw %}
 import dayjs from 'dayjs';
 import { useState, useCallback } from 'react';
 
@@ -279,3 +280,4 @@ function NumericDisplay({ data, type, title }) {
     </ComponentBox>
   );
 }
+{% endraw %}

@@ -1,3 +1,4 @@
+{% raw %}
 import { useBoolean } from 'minimal-shared/hooks';
 
 import Table from '@mui/material/Table';
@@ -180,3 +181,4 @@ function CollapsibleTableRow({ row }) {
     </>
   );
 }
+{% endraw %}

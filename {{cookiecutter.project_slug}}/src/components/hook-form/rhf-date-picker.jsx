@@ -1,3 +1,4 @@
+{% raw %}
 import dayjs from 'dayjs';
 import { Controller, useFormContext } from 'react-hook-form';
 
@@ -67,3 +68,4 @@ export function RHFMobileDateTimePicker({ name, slotProps, ...other }) {
     />
   );
 }
+{% endraw %}

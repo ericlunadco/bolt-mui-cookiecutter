@@ -1,3 +1,4 @@
+{% raw %}
 import { useTheme } from '@mui/material/styles';
 
 import { fPercent } from 'src/utils/format-number';
@@ -31,3 +32,4 @@ export function ChartColumnNegative({ chart }) {
 
   return <Chart type="bar" series={chart.series} options={chartOptions} sx={{ height: 320 }} />;
 }
+{% endraw %}

@@ -1,3 +1,4 @@
+{% raw %}
 import { forwardRef } from 'react';
 import { useBoolean } from 'minimal-shared/hooks';
 
@@ -69,3 +70,4 @@ export function FullScreenDialog() {
     </>
   );
 }
+{% endraw %}

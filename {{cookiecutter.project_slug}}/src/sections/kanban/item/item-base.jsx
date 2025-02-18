@@ -1,3 +1,4 @@
+{% raw %}
 import { memo, useEffect, forwardRef } from 'react';
 import { varAlpha, mergeClasses } from 'minimal-shared/utils';
 
@@ -219,3 +220,4 @@ const ItemImage = styled('img', {
     },
   ],
 }));
+{% endraw %}

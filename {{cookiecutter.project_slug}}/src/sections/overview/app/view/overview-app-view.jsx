@@ -1,3 +1,4 @@
+{% raw %}
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid2';
 import Button from '@mui/material/Button';
@@ -202,3 +203,4 @@ export function OverviewAppView() {
     </DashboardContent>
   );
 }
+{% endraw %}

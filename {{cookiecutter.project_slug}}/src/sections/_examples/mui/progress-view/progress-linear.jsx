@@ -1,3 +1,4 @@
+{% raw %}
 import LinearProgress from '@mui/material/LinearProgress';
 
 import { ComponentBox } from '../../layout';
@@ -57,3 +58,4 @@ export function ProgressLinear({ progress, buffer }) {
     </>
   );
 }
+{% endraw %}

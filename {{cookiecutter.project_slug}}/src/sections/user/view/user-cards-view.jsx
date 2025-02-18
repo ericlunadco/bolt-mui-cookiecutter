@@ -1,3 +1,4 @@
+{% raw %}
 import Button from '@mui/material/Button';
 
 import { paths } from 'src/routes/paths';
@@ -40,3 +41,4 @@ export function UserCardsView() {
     </DashboardContent>
   );
 }
+{% endraw %}

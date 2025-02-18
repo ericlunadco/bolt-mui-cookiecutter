@@ -1,3 +1,4 @@
+{% raw %}
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import Dialog from '@mui/material/Dialog';
@@ -82,3 +83,4 @@ export function FileManagerShareDialog({
     </Dialog>
   );
 }
+{% endraw %}

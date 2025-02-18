@@ -1,3 +1,4 @@
+{% raw %}
 import { sumBy } from 'es-toolkit';
 import { useState, useCallback } from 'react';
 import { varAlpha } from 'minimal-shared/utils';
@@ -464,3 +465,4 @@ function applyFilter({ inputData, comparator, filters, dateError }) {
 
   return inputData;
 }
+{% endraw %}

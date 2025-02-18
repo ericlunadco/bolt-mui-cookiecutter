@@ -1,3 +1,4 @@
+{% raw %}
 import { varAlpha } from 'minimal-shared/utils';
 import { useBoolean } from 'minimal-shared/hooks';
 import { useState, useEffect, useCallback } from 'react';
@@ -153,3 +154,4 @@ export function MailCompose({ onCloseCompose }) {
     </Portal>
   );
 }
+{% endraw %}

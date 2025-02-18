@@ -1,3 +1,4 @@
+{% raw %}
 import { useCallback } from 'react';
 
 import Box from '@mui/material/Box';
@@ -46,3 +47,4 @@ export function TourList({ tours }) {
     </>
   );
 }
+{% endraw %}

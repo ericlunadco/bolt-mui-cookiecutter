@@ -1,3 +1,4 @@
+{% raw %}
 import { cities as CITIES } from 'src/_mock/_map/cities';
 import { countries as COUNTRIES } from 'src/_mock/_map/countries';
 
@@ -103,3 +104,4 @@ export function MapView() {
     />
   );
 }
+{% endraw %}

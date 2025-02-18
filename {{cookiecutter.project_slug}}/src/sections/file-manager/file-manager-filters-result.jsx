@@ -1,3 +1,4 @@
+{% raw %}
 import { useCallback } from 'react';
 
 import Chip from '@mui/material/Chip';
@@ -67,3 +68,4 @@ export function FileManagerFiltersResult({ filters, onResetPage, totalResults, s
     </FiltersResult>
   );
 }
+{% endraw %}

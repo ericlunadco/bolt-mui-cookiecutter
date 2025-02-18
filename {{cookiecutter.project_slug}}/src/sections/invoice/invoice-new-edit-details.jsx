@@ -1,3 +1,4 @@
+{% raw %}
 import { sumBy } from 'es-toolkit';
 import { useEffect, useCallback } from 'react';
 import { useFieldArray, useFormContext } from 'react-hook-form';
@@ -294,3 +295,4 @@ export function InvoiceItem({ onRemoveItem, fieldNames }) {
     </Box>
   );
 }
+{% endraw %}

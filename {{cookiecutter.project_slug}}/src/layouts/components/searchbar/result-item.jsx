@@ -1,3 +1,4 @@
+{% raw %}
 import { varAlpha, isExternalLink } from 'minimal-shared/utils';
 
 import Box from '@mui/material/Box';
@@ -75,3 +76,4 @@ export function ResultItem({ title, path, labels, href, sx, ...other }) {
     </ListItemButton>
   );
 }
+{% endraw %}

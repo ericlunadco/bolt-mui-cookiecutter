@@ -1,3 +1,4 @@
+{% raw %}
 import { useState } from 'react';
 import { usePopover } from 'minimal-shared/hooks';
 
@@ -143,3 +144,4 @@ function TaskItem({ item, selected, onChange, sx, ...other }) {
     </>
   );
 }
+{% endraw %}

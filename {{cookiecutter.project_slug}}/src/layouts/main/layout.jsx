@@ -1,3 +1,4 @@
+{% raw %}
 import { useBoolean } from 'minimal-shared/hooks';
 
 import Box from '@mui/material/Box';
@@ -131,3 +132,4 @@ export function MainLayout({ sx, cssVars, children, slotProps, layoutQuery = 'md
     </LayoutSection>
   );
 }
+{% endraw %}

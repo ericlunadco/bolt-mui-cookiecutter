@@ -1,3 +1,4 @@
+{% raw %}
 import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
 import Button from '@mui/material/Button';
@@ -49,3 +50,4 @@ export function EcommerceCurrentBalance({
     </Card>
   );
 }
+{% endraw %}

@@ -1,3 +1,4 @@
+{% raw %}
 import { useRef, useMemo, useEffect } from 'react';
 import { mergeClasses } from 'minimal-shared/utils';
 import { m, useInView, useAnimation } from 'framer-motion';
@@ -163,3 +164,4 @@ const TextWord = styled('span')``;
 const AnimatedTextContainer = styled(m.span)``;
 
 const AnimatedTextChar = styled(m.span)``;
+{% endraw %}

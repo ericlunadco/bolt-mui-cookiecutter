@@ -1,3 +1,4 @@
+{% raw %}
 import Portal from '@mui/material/Portal';
 
 import { Iconify } from '../iconify';
@@ -51,3 +52,4 @@ export function Snackbar() {
     </Portal>
   );
 }
+{% endraw %}

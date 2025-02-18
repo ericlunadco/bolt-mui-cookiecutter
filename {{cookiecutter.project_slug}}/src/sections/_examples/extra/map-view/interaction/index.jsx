@@ -1,3 +1,4 @@
+{% raw %}
 import { useState, useCallback } from 'react';
 
 import { Map, MapControls } from 'src/components/map';
@@ -47,3 +48,4 @@ export function MapInteraction({ sx, ...other }) {
     </Map>
   );
 }
+{% endraw %}

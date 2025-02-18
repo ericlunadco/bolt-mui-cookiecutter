@@ -1,3 +1,4 @@
+{% raw %}
 import { z as zod } from 'zod';
 import { useForm } from 'react-hook-form';
 import { useBoolean } from 'minimal-shared/hooks';
@@ -161,3 +162,4 @@ export function CenteredSignUpView() {
     </>
   );
 }
+{% endraw %}

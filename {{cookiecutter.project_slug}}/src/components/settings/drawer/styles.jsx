@@ -1,3 +1,4 @@
+{% raw %}
 import { varAlpha } from 'minimal-shared/utils';
 
 import Tooltip from '@mui/material/Tooltip';
@@ -145,3 +146,4 @@ export function OptionButton({ selected, sx, children, ...other }) {
     </ButtonBase>
   );
 }
+{% endraw %}

@@ -1,3 +1,4 @@
+{% raw %}
 import { useBoolean } from 'minimal-shared/hooks';
 import { useRef, useState, useEffect, useCallback } from 'react';
 
@@ -71,3 +72,4 @@ Praesent commodo cursus magna, vel scelerisque nisl consectetur et.`
     </>
   );
 }
+{% endraw %}

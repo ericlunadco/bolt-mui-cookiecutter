@@ -1,3 +1,4 @@
+{% raw %}
 import { FormWizard } from './form-wizard';
 import { ComponentLayout } from '../../layout';
 
@@ -15,3 +16,4 @@ export function FormWizardView() {
     </ComponentLayout>
   );
 }
+{% endraw %}

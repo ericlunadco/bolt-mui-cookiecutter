@@ -1,3 +1,4 @@
+{% raw %}
 import { Chips } from './chip';
 import { ComponentLayout } from '../../layout';
 
@@ -22,3 +23,4 @@ export function ChipView() {
     />
   );
 }
+{% endraw %}

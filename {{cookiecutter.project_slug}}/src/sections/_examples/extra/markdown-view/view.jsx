@@ -1,3 +1,4 @@
+{% raw %}
 import { _mock } from 'src/_mock';
 
 import { Markdown } from 'src/components/markdown';
@@ -150,3 +151,4 @@ export function MarkdownView() {
     </ComponentLayout>
   );
 }
+{% endraw %}

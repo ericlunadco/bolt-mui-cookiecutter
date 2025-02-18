@@ -1,3 +1,4 @@
+{% raw %}
 import { useState, useCallback } from 'react';
 import { varAlpha } from 'minimal-shared/utils';
 import { usePopover } from 'minimal-shared/hooks';
@@ -151,3 +152,4 @@ export function ProductTableToolbar({ filters, options }) {
     </>
   );
 }
+{% endraw %}

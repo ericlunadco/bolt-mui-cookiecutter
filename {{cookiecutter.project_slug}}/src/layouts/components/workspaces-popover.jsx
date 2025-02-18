@@ -1,3 +1,4 @@
+{% raw %}
 import { useState, useCallback } from 'react';
 import { usePopover } from 'minimal-shared/hooks';
 
@@ -130,3 +131,4 @@ export function WorkspacesPopover({ data = [], sx, ...other }) {
     </>
   );
 }
+{% endraw %}

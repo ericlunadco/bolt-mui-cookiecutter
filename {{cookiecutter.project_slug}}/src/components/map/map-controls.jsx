@@ -1,3 +1,4 @@
+{% raw %}
 import { ScaleControl, GeolocateControl, NavigationControl, FullscreenControl } from 'react-map-gl';
 
 // ----------------------------------------------------------------------
@@ -24,3 +25,4 @@ export function MapControls({
     </>
   );
 }
+{% endraw %}

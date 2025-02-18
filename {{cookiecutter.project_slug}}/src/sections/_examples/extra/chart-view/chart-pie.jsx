@@ -1,3 +1,4 @@
+{% raw %}
 import { useTheme, alpha as hexAlpha } from '@mui/material/styles';
 
 import { Chart, useChart, ChartLegends } from 'src/components/chart';
@@ -45,3 +46,4 @@ export function ChartPie({ chart }) {
     </>
   );
 }
+{% endraw %}

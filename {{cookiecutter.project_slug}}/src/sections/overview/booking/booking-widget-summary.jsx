@@ -1,3 +1,4 @@
+{% raw %}
 import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
 
@@ -68,3 +69,4 @@ export function BookingWidgetSummary({ title, percent, total, icon, sx, ...other
     </Card>
   );
 }
+{% endraw %}

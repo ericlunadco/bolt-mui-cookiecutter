@@ -1,3 +1,4 @@
+{% raw %}
 import { useBoolean } from 'minimal-shared/hooks';
 
 import Box from '@mui/material/Box';
@@ -77,3 +78,4 @@ export function AccountBillingHistory({ invoices, sx, ...other }) {
     </Card>
   );
 }
+{% endraw %}

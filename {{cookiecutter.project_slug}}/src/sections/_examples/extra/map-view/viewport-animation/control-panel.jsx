@@ -1,3 +1,4 @@
+{% raw %}
 import Radio from '@mui/material/Radio';
 import RadioGroup from '@mui/material/RadioGroup';
 import FormControlLabel from '@mui/material/FormControlLabel';
@@ -26,3 +27,4 @@ export function MapControlPanel({ data, selectedCity, onSelectCity }) {
     </ControlPanelRoot>
   );
 }
+{% endraw %}

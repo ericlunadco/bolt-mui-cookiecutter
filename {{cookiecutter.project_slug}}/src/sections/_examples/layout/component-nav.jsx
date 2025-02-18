@@ -1,3 +1,4 @@
+{% raw %}
 import { isEqualPath, mergeClasses } from 'minimal-shared/utils';
 
 import { styled } from '@mui/material/styles';
@@ -154,3 +155,4 @@ export function SecondaryNav({ sx, navData, className, onClickItem, activeItem, 
     </NavRoot>
   );
 }
+{% endraw %}

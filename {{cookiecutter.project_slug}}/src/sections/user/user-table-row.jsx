@@ -1,3 +1,4 @@
+{% raw %}
 import { useBoolean, usePopover } from 'minimal-shared/hooks';
 
 import Box from '@mui/material/Box';
@@ -161,3 +162,4 @@ export function UserTableRow({ row, selected, editHref, onSelectRow, onDeleteRow
     </>
   );
 }
+{% endraw %}

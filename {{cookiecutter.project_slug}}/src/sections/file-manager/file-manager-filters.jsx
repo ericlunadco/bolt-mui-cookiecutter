@@ -1,3 +1,4 @@
+{% raw %}
 import { useCallback } from 'react';
 import { varAlpha } from 'minimal-shared/utils';
 import { usePopover } from 'minimal-shared/hooks';
@@ -241,3 +242,4 @@ export function FileManagerFilters({
     </Box>
   );
 }
+{% endraw %}

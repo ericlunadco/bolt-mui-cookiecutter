@@ -1,3 +1,4 @@
+{% raw %}
 import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
 
@@ -29,3 +30,4 @@ export function ContactView() {
     </>
   );
 }
+{% endraw %}

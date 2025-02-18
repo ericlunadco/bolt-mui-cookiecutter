@@ -1,3 +1,4 @@
+{% raw %}
 import { useAuth0, Auth0Provider } from '@auth0/auth0-react';
 import { useMemo, useState, useEffect, useCallback } from 'react';
 
@@ -86,3 +87,4 @@ function AuthProviderContainer({ children }) {
 
   return <AuthContext.Provider value={memoizedValue}>{children}</AuthContext.Provider>;
 }
+{% endraw %}

@@ -1,3 +1,4 @@
+{% raw %}
 import { useCallback, startTransition } from 'react';
 
 import Box from '@mui/material/Box';
@@ -147,3 +148,4 @@ export function ChatNavItem({ selected, collapse, conversation, onCloseMobile })
     </Box>
   );
 }
+{% endraw %}

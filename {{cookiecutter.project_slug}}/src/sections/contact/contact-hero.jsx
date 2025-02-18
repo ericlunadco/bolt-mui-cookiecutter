@@ -1,3 +1,4 @@
+{% raw %}
 import { m } from 'framer-motion';
 import { varAlpha } from 'minimal-shared/utils';
 
@@ -110,3 +111,4 @@ const CONTACTS = [
     phoneNumber: '(307) 555-0133',
   },
 ];
+{% endraw %}

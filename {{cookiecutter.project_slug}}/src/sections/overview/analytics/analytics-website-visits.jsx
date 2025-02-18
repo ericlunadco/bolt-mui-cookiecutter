@@ -1,3 +1,4 @@
+{% raw %}
 import Card from '@mui/material/Card';
 import CardHeader from '@mui/material/CardHeader';
 import { useTheme, alpha as hexAlpha } from '@mui/material/styles';
@@ -42,3 +43,4 @@ export function AnalyticsWebsiteVisits({ title, subheader, chart, sx, ...other }
     </Card>
   );
 }
+{% endraw %}

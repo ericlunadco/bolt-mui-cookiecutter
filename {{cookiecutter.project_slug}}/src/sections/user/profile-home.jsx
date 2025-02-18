@@ -1,3 +1,4 @@
+{% raw %}
 import { useRef } from 'react';
 import { varAlpha } from 'minimal-shared/utils';
 
@@ -193,3 +194,4 @@ export function ProfileHome({ info, posts }) {
     </Grid>
   );
 }
+{% endraw %}

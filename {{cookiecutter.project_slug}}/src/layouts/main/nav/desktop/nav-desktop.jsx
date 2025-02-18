@@ -1,3 +1,4 @@
+{% raw %}
 import { Nav, NavUl } from '../components';
 import { NavList } from './nav-desktop-list';
 
@@ -29,3 +30,4 @@ export function NavDesktop({ data, sx, ...other }) {
     </Nav>
   );
 }
+{% endraw %}

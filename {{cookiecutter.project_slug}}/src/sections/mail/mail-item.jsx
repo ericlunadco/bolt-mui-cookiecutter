@@ -1,3 +1,4 @@
+{% raw %}
 import Box from '@mui/material/Box';
 import Avatar from '@mui/material/Avatar';
 import Typography from '@mui/material/Typography';
@@ -78,3 +79,4 @@ export function MailItem({ mail, selected, sx, ...other }) {
     </Box>
   );
 }
+{% endraw %}

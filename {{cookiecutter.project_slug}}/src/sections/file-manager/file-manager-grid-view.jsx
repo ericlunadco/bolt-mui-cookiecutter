@@ -1,3 +1,4 @@
+{% raw %}
 import { useBoolean } from 'minimal-shared/hooks';
 import { useRef, useState, useCallback } from 'react';
 
@@ -203,3 +204,4 @@ export function FileManagerGridView({ table, dataFiltered, onDeleteItem, onOpenC
     </>
   );
 }
+{% endraw %}

@@ -1,3 +1,4 @@
+{% raw %}
 import { useState, useCallback } from 'react';
 
 import { UploadBox, MultiFilePreview } from 'src/components/upload';
@@ -32,3 +33,4 @@ export function KanbanDetailsAttachments({ attachments }) {
     />
   );
 }
+{% endraw %}

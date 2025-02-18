@@ -1,3 +1,4 @@
+{% raw %}
 import { varAlpha } from 'minimal-shared/utils';
 
 import Button from '@mui/material/Button';
@@ -166,3 +167,4 @@ export function BorderEffects() {
     </>
   );
 }
+{% endraw %}

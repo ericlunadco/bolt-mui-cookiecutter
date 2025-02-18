@@ -1,3 +1,4 @@
+{% raw %}
 import { useBackToTop } from 'minimal-shared/hooks';
 
 import Fab from '@mui/material/Fab';
@@ -101,3 +102,4 @@ function BackToTopButton({ isVisible, sx, ...other }) {
     </Fab>
   );
 }
+{% endraw %}

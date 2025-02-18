@@ -1,3 +1,4 @@
+{% raw %}
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import Avatar from '@mui/material/Avatar';
@@ -225,3 +226,4 @@ export function NotificationItem({ notification }) {
     </ListItemButton>
   );
 }
+{% endraw %}

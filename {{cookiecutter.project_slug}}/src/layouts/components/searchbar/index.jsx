@@ -1,3 +1,4 @@
+{% raw %}
 import parse from 'autosuggest-highlight/parse';
 import match from 'autosuggest-highlight/match';
 import { varAlpha } from 'minimal-shared/utils';
@@ -206,3 +207,4 @@ export function Searchbar({ data: navItems = [], sx, ...other }) {
     </>
   );
 }
+{% endraw %}

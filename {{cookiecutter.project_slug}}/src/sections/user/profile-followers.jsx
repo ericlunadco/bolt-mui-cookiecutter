@@ -1,3 +1,4 @@
+{% raw %}
 import { useState, useCallback } from 'react';
 
 import Box from '@mui/material/Box';
@@ -111,3 +112,4 @@ function CardItem({ follower, selected, onSelected, sx, ...other }) {
     </Card>
   );
 }
+{% endraw %}

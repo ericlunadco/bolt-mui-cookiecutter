@@ -1,3 +1,4 @@
+{% raw %}
 import { useState } from 'react';
 import { usePopover } from 'minimal-shared/hooks';
 
@@ -150,3 +151,4 @@ export function MenuView() {
     />
   );
 }
+{% endraw %}

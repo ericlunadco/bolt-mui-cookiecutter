@@ -1,3 +1,4 @@
+{% raw %}
 import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
 import { useTheme, alpha as hexAlpha } from '@mui/material/styles';
@@ -112,3 +113,4 @@ export function BookingTotalIncomes({ title, total, percent, chart, sx, ...other
     </Card>
   );
 }
+{% endraw %}

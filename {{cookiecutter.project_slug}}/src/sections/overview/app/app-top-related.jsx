@@ -1,3 +1,4 @@
+{% raw %}
 import { useTabs } from 'minimal-shared/hooks';
 
 import Box from '@mui/material/Box';
@@ -150,3 +151,4 @@ function Item({ item, sx, ...other }) {
     </Box>
   );
 }
+{% endraw %}

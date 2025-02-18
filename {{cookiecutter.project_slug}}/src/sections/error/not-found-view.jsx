@@ -1,3 +1,4 @@
+{% raw %}
 import { m } from 'framer-motion';
 
 import Button from '@mui/material/Button';
@@ -45,3 +46,4 @@ export function NotFoundView() {
     </SimpleLayout>
   );
 }
+{% endraw %}

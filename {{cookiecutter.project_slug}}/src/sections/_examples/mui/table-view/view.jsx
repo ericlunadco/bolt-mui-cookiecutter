@@ -1,3 +1,4 @@
+{% raw %}
 import { BasicTable } from './basic';
 import { CollapsibleTable } from './collapsible';
 import { PaginationWithApi } from './pagination-with-api';
@@ -80,3 +81,4 @@ export function TableView() {
     />
   );
 }
+{% endraw %}

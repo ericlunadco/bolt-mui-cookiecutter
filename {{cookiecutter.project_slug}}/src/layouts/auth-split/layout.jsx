@@ -1,3 +1,4 @@
+{% raw %}
 import { merge } from 'es-toolkit';
 
 import Box from '@mui/material/Box';
@@ -143,3 +144,4 @@ export function AuthSplitLayout({ sx, cssVars, children, slotProps, layoutQuery 
     </LayoutSection>
   );
 }
+{% endraw %}

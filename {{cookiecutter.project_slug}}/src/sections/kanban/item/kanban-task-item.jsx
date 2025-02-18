@@ -1,3 +1,4 @@
+{% raw %}
 import { useSortable } from '@dnd-kit/sortable';
 import { useBoolean } from 'minimal-shared/hooks';
 import { useState, useEffect, useCallback } from 'react';
@@ -87,3 +88,4 @@ function useMountStatus() {
 
   return isMounted;
 }
+{% endraw %}

@@ -1,3 +1,4 @@
+{% raw %}
 import Slider from '@mui/material/Slider';
 import Switch from '@mui/material/Switch';
 import Typography from '@mui/material/Typography';
@@ -67,3 +68,4 @@ export function MapControlPanel({
     </ControlPanelRoot>
   );
 }
+{% endraw %}

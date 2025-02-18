@@ -1,3 +1,4 @@
+{% raw %}
 import { usePopover } from 'minimal-shared/hooks';
 
 import Box from '@mui/material/Box';
@@ -169,3 +170,4 @@ function applyFilter({ inputData, query }) {
     [name, role].some((field) => field?.toLowerCase().includes(query.toLowerCase()))
   );
 }
+{% endraw %}

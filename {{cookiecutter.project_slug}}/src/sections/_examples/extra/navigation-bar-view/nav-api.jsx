@@ -1,3 +1,4 @@
+{% raw %}
 import useSWR from 'swr';
 import { useMemo } from 'react';
 
@@ -82,3 +83,4 @@ const NAV_ICONS = {
   'icon.level2b': <SvgColor src={`${CONFIG.assetsDir}/assets/icons/navbar/ic-mail.svg`} />,
   'icon.level2c': <SvgColor src={`${CONFIG.assetsDir}/assets/icons/navbar/ic-calendar.svg`} />,
 };
+{% endraw %}

@@ -1,3 +1,4 @@
+{% raw %}
 import { varAlpha, mergeClasses } from 'minimal-shared/utils';
 
 import Box from '@mui/material/Box';
@@ -110,3 +111,4 @@ const NavRoot = styled('div', {
   }),
   [theme.breakpoints.up(layoutQuery)]: { display: 'flex' },
 }));
+{% endraw %}

@@ -1,3 +1,4 @@
+{% raw %}
 import Paper from '@mui/material/Paper';
 
 import { NavSectionMini } from 'src/components/nav-section';
@@ -43,3 +44,4 @@ export function NavMini() {
     </Paper>
   );
 }
+{% endraw %}

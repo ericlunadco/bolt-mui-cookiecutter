@@ -1,3 +1,4 @@
+{% raw %}
 import { m } from 'framer-motion';
 
 import Container from '@mui/material/Container';
@@ -37,3 +38,4 @@ export function RoleBasedGuard({ sx, children, hasContent, currentRole, acceptRo
 
   return <> {children} </>;
 }
+{% endraw %}

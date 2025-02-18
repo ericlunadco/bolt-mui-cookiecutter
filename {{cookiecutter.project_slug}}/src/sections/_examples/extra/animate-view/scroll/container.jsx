@@ -1,3 +1,4 @@
+{% raw %}
 import { useRef } from 'react';
 import { m } from 'framer-motion';
 
@@ -59,3 +60,4 @@ export function ContainerView({ selectedVariant, sx, ...other }) {
     </Box>
   );
 }
+{% endraw %}

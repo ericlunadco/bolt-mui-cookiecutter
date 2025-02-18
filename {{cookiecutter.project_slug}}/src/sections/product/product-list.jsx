@@ -1,3 +1,4 @@
+{% raw %}
 import Box from '@mui/material/Box';
 import Pagination, { paginationClasses } from '@mui/material/Pagination';
 
@@ -53,3 +54,4 @@ export function ProductList({ products, loading, sx, ...other }) {
     </>
   );
 }
+{% endraw %}

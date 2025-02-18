@@ -1,3 +1,4 @@
+{% raw %}
 import { mergeClasses } from 'minimal-shared/utils';
 
 import SvgIcon from '@mui/material/SvgIcon';
@@ -73,3 +74,4 @@ const ArrowButtonRoot = styled(ButtonBase, {
     },
   ],
 }));
+{% endraw %}

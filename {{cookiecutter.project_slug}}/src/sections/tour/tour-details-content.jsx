@@ -1,3 +1,4 @@
+{% raw %}
 import Box from '@mui/material/Box';
 import Link from '@mui/material/Link';
 import Divider from '@mui/material/Divider';
@@ -265,3 +266,4 @@ export function TourDetailsContent({ tour }) {
     </>
   );
 }
+{% endraw %}

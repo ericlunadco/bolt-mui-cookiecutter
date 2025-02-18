@@ -1,3 +1,4 @@
+{% raw %}
 import { useState } from 'react';
 
 import Box from '@mui/material/Box';
@@ -444,3 +445,4 @@ const top100Films = [
   { title: '3 Idiots', year: 2009 },
   { title: 'Monty Python and the Holy Grail', year: 1975 },
 ];
+{% endraw %}

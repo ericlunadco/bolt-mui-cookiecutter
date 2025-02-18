@@ -1,3 +1,4 @@
+{% raw %}
 import { DemoMegaMenuMobile } from './mobile';
 import { ComponentLayout } from '../../layout';
 import { DemoMegaMenuVertical } from './vertical';
@@ -19,3 +20,4 @@ export function MegaMenuView() {
     </ComponentLayout>
   );
 }
+{% endraw %}

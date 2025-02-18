@@ -1,3 +1,4 @@
+{% raw %}
 import { varAlpha } from 'minimal-shared/utils';
 import { Controller, useFormContext } from 'react-hook-form';
 
@@ -103,3 +104,4 @@ function OptionItem({ option, selected, sx, ...other }) {
     </Box>
   );
 }
+{% endraw %}

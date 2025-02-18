@@ -1,3 +1,4 @@
+{% raw %}
 import { useTheme } from '@mui/material/styles';
 
 import { Chart, useChart } from 'src/components/chart';
@@ -16,3 +17,4 @@ export function ChartBoxPlot({ chart }) {
 
   return <Chart type="boxPlot" series={chart.series} options={chartOptions} sx={{ height: 320 }} />;
 }
+{% endraw %}

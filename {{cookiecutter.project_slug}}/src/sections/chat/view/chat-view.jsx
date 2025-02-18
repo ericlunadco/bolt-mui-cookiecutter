@@ -1,3 +1,4 @@
+{% raw %}
 import { useState, useEffect, useCallback, startTransition } from 'react';
 
 import Typography from '@mui/material/Typography';
@@ -134,3 +135,4 @@ export function ChatView() {
     </DashboardContent>
   );
 }
+{% endraw %}

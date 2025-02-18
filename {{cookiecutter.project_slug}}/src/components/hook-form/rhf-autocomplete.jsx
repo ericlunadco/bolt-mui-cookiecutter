@@ -1,3 +1,4 @@
+{% raw %}
 import { Controller, useFormContext } from 'react-hook-form';
 
 import TextField from '@mui/material/TextField';
@@ -44,3 +45,4 @@ export function RHFAutocomplete({ name, label, slotProps, helperText, placeholde
     />
   );
 }
+{% endraw %}

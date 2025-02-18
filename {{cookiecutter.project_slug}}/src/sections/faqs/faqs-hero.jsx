@@ -1,3 +1,4 @@
+{% raw %}
 import { m } from 'framer-motion';
 import { varAlpha } from 'minimal-shared/utils';
 
@@ -82,3 +83,4 @@ export function FaqsHero({ sx, ...other }) {
     </Box>
   );
 }
+{% endraw %}

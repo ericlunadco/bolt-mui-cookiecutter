@@ -1,3 +1,4 @@
+{% raw %}
 import { Outlet } from 'react-router';
 import { lazy, Suspense } from 'react';
 
@@ -109,3 +110,4 @@ export const authDemoRoutes = [
     children: [authSplit, authCentered],
   },
 ];
+{% endraw %}

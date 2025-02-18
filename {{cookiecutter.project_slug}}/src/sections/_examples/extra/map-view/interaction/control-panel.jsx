@@ -1,3 +1,4 @@
+{% raw %}
 import Box from '@mui/material/Box';
 import Switch from '@mui/material/Switch';
 import Typography from '@mui/material/Typography';
@@ -117,3 +118,4 @@ const renderControlSettings = (name, settings, onChange) => {
 
   return null;
 };
+{% endraw %}

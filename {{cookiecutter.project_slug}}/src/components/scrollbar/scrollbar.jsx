@@ -1,3 +1,4 @@
+{% raw %}
 import { forwardRef } from 'react';
 import SimpleBar from 'simplebar-react';
 import { mergeClasses } from 'minimal-shared/utils';
@@ -51,3 +52,4 @@ const ScrollbarRoot = styled(SimpleBar, {
     },
   }),
 }));
+{% endraw %}

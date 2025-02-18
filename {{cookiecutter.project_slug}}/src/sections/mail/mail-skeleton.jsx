@@ -1,3 +1,4 @@
+{% raw %}
 import { varAlpha } from 'minimal-shared/utils';
 
 import Box from '@mui/material/Box';
@@ -55,3 +56,4 @@ export function MailItemSkeleton({ sx, itemCount = 6, ...other }) {
     </Box>
   ));
 }
+{% endraw %}

@@ -1,3 +1,4 @@
+{% raw %}
 import { useState } from 'react';
 import { varAlpha } from 'minimal-shared/utils';
 
@@ -230,3 +231,4 @@ export function CustomizedSteppers() {
     </>
   );
 }
+{% endraw %}

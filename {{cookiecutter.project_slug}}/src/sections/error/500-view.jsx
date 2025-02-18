@@ -1,3 +1,4 @@
+{% raw %}
 import { m } from 'framer-motion';
 
 import Button from '@mui/material/Button';
@@ -44,3 +45,4 @@ export function View500() {
     </SimpleLayout>
   );
 }
+{% endraw %}

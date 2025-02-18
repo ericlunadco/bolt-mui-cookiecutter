@@ -1,3 +1,4 @@
+{% raw %}
 import { useState } from 'react';
 
 import { useTheme } from '@mui/material/styles';
@@ -66,3 +67,4 @@ export function ContactMap({ contacts, sx }) {
     </Map>
   );
 }
+{% endraw %}

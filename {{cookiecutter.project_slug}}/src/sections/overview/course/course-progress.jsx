@@ -1,3 +1,4 @@
+{% raw %}
 import Card from '@mui/material/Card';
 import Divider from '@mui/material/Divider';
 import CardHeader from '@mui/material/CardHeader';
@@ -76,3 +77,4 @@ export function CourseProgress({ title, subheader, chart, sx, ...other }) {
     </Card>
   );
 }
+{% endraw %}

@@ -1,3 +1,4 @@
+{% raw %}
 import { useRef, useMemo, useState, useImperativeHandle } from 'react';
 
 import Box from '@mui/material/Box';
@@ -314,3 +315,4 @@ const ratingOnlyOperators = [
     getValueAsString: (value) => `${value} Stars`,
   },
 ];
+{% endraw %}

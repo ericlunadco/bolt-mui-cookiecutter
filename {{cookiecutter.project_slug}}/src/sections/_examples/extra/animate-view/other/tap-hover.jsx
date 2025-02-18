@@ -1,3 +1,4 @@
+{% raw %}
 import { m } from 'framer-motion';
 
 import Box from '@mui/material/Box';
@@ -88,3 +89,4 @@ export function AnimateTapHover() {
     </>
   );
 }
+{% endraw %}

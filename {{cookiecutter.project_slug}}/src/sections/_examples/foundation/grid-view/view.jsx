@@ -1,3 +1,4 @@
+{% raw %}
 import { useState } from 'react';
 
 import Grid from '@mui/material/Grid2';
@@ -105,3 +106,4 @@ export function GridView() {
     />
   );
 }
+{% endraw %}

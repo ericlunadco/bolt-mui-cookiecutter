@@ -1,3 +1,4 @@
+{% raw %}
 import { mergeClasses } from 'minimal-shared/utils';
 import ReactLightbox, { useLightboxState } from 'yet-another-react-lightbox';
 
@@ -92,3 +93,4 @@ function DisplayTotal({ totalItems, disableTotal }) {
     </Box>
   );
 }
+{% endraw %}

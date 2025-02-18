@@ -1,3 +1,4 @@
+{% raw %}
 import { isEqualPath } from 'minimal-shared/utils';
 
 import Link from '@mui/material/Link';
@@ -73,3 +74,4 @@ const NavSubItem = styled(Link, {
     },
   ],
 }));
+{% endraw %}

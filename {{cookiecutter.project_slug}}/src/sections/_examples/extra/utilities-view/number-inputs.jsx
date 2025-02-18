@@ -1,3 +1,4 @@
+{% raw %}
 import { useState } from 'react';
 
 import { Iconify } from 'src/components/iconify';
@@ -56,3 +57,4 @@ export function NumberInputs() {
     </>
   );
 }
+{% endraw %}

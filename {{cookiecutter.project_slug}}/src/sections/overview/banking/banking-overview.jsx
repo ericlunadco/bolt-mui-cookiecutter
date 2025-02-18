@@ -1,3 +1,4 @@
+{% raw %}
 import { useTabs } from 'minimal-shared/hooks';
 
 import Box from '@mui/material/Box';
@@ -218,3 +219,4 @@ export function BankingOverview({ sx, ...other }) {
     </Card>
   );
 }
+{% endraw %}

@@ -1,3 +1,4 @@
+{% raw %}
 import { useTabs } from 'minimal-shared/hooks';
 
 import Tab from '@mui/material/Tab';
@@ -51,3 +52,4 @@ export function AnimateView() {
     </ComponentLayout>
   );
 }
+{% endraw %}

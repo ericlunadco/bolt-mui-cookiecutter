@@ -1,3 +1,4 @@
+{% raw %}
 import useSWR from 'swr';
 import { useState } from 'react';
 
@@ -118,3 +119,4 @@ export function DataInfo({ endpoint, totalItems, totalPages, sx, ...other }) {
     </Box>
   );
 }
+{% endraw %}

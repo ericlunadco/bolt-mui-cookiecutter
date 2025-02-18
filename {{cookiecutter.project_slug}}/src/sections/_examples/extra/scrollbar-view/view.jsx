@@ -1,3 +1,4 @@
+{% raw %}
 import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 import Alert from '@mui/material/Alert';
@@ -211,3 +212,4 @@ export function ScrollbarView() {
     />
   );
 }
+{% endraw %}

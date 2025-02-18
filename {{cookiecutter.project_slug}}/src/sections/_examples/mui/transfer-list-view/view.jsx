@@ -1,3 +1,4 @@
+{% raw %}
 import { SimpleTransferList } from './simple-transfer-list';
 import { ComponentBox, ComponentLayout } from '../../layout';
 import { EnhancedTransferList } from './enhanced-transfer-list';
@@ -36,3 +37,4 @@ export function TransferListView() {
     />
   );
 }
+{% endraw %}

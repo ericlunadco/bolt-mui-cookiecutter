@@ -1,3 +1,4 @@
+{% raw %}
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 
@@ -37,3 +38,4 @@ export function FormHead({ sx, icon, title, description, ...other }) {
     </>
   );
 }
+{% endraw %}

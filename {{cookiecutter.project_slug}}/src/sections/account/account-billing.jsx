@@ -1,3 +1,4 @@
+{% raw %}
 import Grid from '@mui/material/Grid2';
 
 import { AccountBillingPlan } from './account-billing-plan';
@@ -22,3 +23,4 @@ export function AccountBilling({ cards, plans, invoices, addressBook }) {
     </Grid>
   );
 }
+{% endraw %}

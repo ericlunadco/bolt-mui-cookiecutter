@@ -1,3 +1,4 @@
+{% raw %}
 import { sumBy } from 'es-toolkit';
 import { varAlpha } from 'minimal-shared/utils';
 
@@ -93,3 +94,4 @@ export function BookingAvailable({ title, subheader, chart, sx, ...other }) {
     </Card>
   );
 }
+{% endraw %}

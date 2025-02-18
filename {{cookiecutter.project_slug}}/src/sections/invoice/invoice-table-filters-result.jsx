@@ -1,3 +1,4 @@
+{% raw %}
 import { useCallback } from 'react';
 
 import Chip from '@mui/material/Chip';
@@ -70,3 +71,4 @@ export function InvoiceTableFiltersResult({ filters, totalResults, onResetPage, 
     </FiltersResult>
   );
 }
+{% endraw %}

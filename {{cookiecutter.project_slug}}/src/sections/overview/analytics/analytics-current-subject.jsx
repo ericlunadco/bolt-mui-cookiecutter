@@ -1,3 +1,4 @@
+{% raw %}
 import Card from '@mui/material/Card';
 import Divider from '@mui/material/Divider';
 import { useTheme } from '@mui/material/styles';
@@ -54,3 +55,4 @@ export function AnalyticsCurrentSubject({ title, subheader, chart, sx, ...other 
     </Card>
   );
 }
+{% endraw %}

@@ -1,3 +1,4 @@
+{% raw %}
 import { varAlpha } from 'minimal-shared/utils';
 
 import Box from '@mui/material/Box';
@@ -137,3 +138,4 @@ const DEMO_COMPONENTS = [
 export function ImageView() {
   return <ComponentLayout sectionData={DEMO_COMPONENTS} heroProps={{ heading: 'Image' }} />;
 }
+{% endraw %}

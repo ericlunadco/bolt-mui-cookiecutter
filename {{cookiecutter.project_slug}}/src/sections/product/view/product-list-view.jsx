@@ -1,3 +1,4 @@
+{% raw %}
 import { useBoolean, useSetState } from 'minimal-shared/hooks';
 import { useState, useEffect, forwardRef, useCallback } from 'react';
 
@@ -378,3 +379,4 @@ function applyFilter({ inputData, filters }) {
 
   return inputData;
 }
+{% endraw %}

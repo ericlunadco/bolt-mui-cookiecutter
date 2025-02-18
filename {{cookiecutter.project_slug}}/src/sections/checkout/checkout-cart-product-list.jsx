@@ -1,3 +1,4 @@
+{% raw %}
 import Table from '@mui/material/Table';
 import TableBody from '@mui/material/TableBody';
 
@@ -38,3 +39,4 @@ export function CheckoutCartProductList({ checkoutState, onDeleteCartItem, onCha
     </Scrollbar>
   );
 }
+{% endraw %}

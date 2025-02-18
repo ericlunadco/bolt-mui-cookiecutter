@@ -1,3 +1,4 @@
+{% raw %}
 import { z as zod } from 'zod';
 import { useCallback } from 'react';
 import { uuidv4 } from 'minimal-shared/utils';
@@ -163,3 +164,4 @@ export function CalendarForm({ currentEvent, colorOptions, onClose }) {
     </Form>
   );
 }
+{% endraw %}

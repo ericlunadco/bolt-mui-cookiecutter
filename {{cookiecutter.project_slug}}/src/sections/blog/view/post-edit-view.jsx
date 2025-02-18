@@ -1,3 +1,4 @@
+{% raw %}
 import { paths } from 'src/routes/paths';
 
 import { DashboardContent } from 'src/layouts/dashboard';
@@ -26,3 +27,4 @@ export function PostEditView({ post }) {
     </DashboardContent>
   );
 }
+{% endraw %}

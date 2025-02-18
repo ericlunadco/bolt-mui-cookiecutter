@@ -1,3 +1,4 @@
+{% raw %}
 import { useCallback } from 'react';
 
 import Chip from '@mui/material/Chip';
@@ -57,3 +58,4 @@ export function UserTableFiltersResult({ filters, onResetPage, totalResults, sx 
     </FiltersResult>
   );
 }
+{% endraw %}

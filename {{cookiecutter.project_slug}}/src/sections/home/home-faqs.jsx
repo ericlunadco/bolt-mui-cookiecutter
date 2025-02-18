@@ -1,3 +1,4 @@
+{% raw %}
 import { useState } from 'react';
 import { m } from 'framer-motion';
 import { varAlpha } from 'minimal-shared/utils';
@@ -292,3 +293,4 @@ const bottomLines = () => (
     <FloatPlusIcon sx={{ bottom: -8, left: 72 }} />
   </>
 );
+{% endraw %}

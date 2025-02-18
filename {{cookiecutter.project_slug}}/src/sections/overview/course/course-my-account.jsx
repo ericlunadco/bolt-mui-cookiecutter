@@ -1,3 +1,4 @@
+{% raw %}
 import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
 import Avatar from '@mui/material/Avatar';
@@ -54,3 +55,4 @@ export function CourseMyAccount({ sx, ...other }) {
     </Card>
   );
 }
+{% endraw %}

@@ -1,3 +1,4 @@
+{% raw %}
 import { varAlpha } from 'minimal-shared/utils';
 
 import { listClasses } from '@mui/material/List';
@@ -403,3 +404,4 @@ const DataGridDensityStandardIcon = (props) => (
     </g>
   </SvgIcon>
 );
+{% endraw %}

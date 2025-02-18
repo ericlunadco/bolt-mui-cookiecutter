@@ -1,3 +1,4 @@
+{% raw %}
 import { useCallback } from 'react';
 import { useAuth0 } from '@auth0/auth0-react';
 
@@ -97,3 +98,4 @@ export function Auth0SignInView() {
     </Box>
   );
 }
+{% endraw %}

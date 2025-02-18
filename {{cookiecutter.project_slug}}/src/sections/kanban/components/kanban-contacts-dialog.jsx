@@ -1,3 +1,4 @@
+{% raw %}
 import { useState, useCallback } from 'react';
 
 import Box from '@mui/material/Box';
@@ -113,3 +114,4 @@ function applyFilter({ inputData, query }) {
     [name, email].some((field) => field?.toLowerCase().includes(query.toLowerCase()))
   );
 }
+{% endraw %}

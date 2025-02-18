@@ -1,3 +1,4 @@
+{% raw %}
 import { Outlet } from 'react-router';
 import { lazy, Suspense } from 'react';
 
@@ -112,3 +113,4 @@ export const mainRoutes = [
     ],
   },
 ];
+{% endraw %}

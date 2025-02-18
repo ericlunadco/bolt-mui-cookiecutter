@@ -1,3 +1,4 @@
+{% raw %}
 import { useFormContext } from 'react-hook-form';
 import { useBoolean } from 'minimal-shared/hooks';
 
@@ -128,3 +129,4 @@ export function InvoiceNewEditAddress() {
     </>
   );
 }
+{% endraw %}

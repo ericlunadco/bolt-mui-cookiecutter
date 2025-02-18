@@ -1,3 +1,4 @@
+{% raw %}
 import { varAlpha } from 'minimal-shared/utils';
 
 import Card from '@mui/material/Card';
@@ -78,3 +79,4 @@ export function EcommerceSaleByGender({ title, subheader, total, chart, sx, ...o
     </Card>
   );
 }
+{% endraw %}

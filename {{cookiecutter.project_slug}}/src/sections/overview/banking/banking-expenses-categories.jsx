@@ -1,3 +1,4 @@
+{% raw %}
 import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
 import Divider from '@mui/material/Divider';
@@ -91,3 +92,4 @@ export function BankingExpensesCategories({ title, subheader, chart, sx, ...othe
     </Card>
   );
 }
+{% endraw %}

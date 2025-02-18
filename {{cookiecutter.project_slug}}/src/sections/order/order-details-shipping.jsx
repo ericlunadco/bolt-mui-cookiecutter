@@ -1,3 +1,4 @@
+{% raw %}
 import Box from '@mui/material/Box';
 import Stack from '@mui/material/Stack';
 import IconButton from '@mui/material/IconButton';
@@ -38,3 +39,4 @@ export function OrderDetailsShipping({ shippingAddress }) {
     </>
   );
 }
+{% endraw %}

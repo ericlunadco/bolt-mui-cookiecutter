@@ -1,3 +1,4 @@
+{% raw %}
 import { varAlpha } from 'minimal-shared/utils';
 
 import Box from '@mui/material/Box';
@@ -119,3 +120,4 @@ export function PostDetailsHero({ sx, title, author, coverUrl, createdAt, ...oth
     </Box>
   );
 }
+{% endraw %}

@@ -1,3 +1,4 @@
+{% raw %}
 import Stack from '@mui/material/Stack';
 import LinearProgress from '@mui/material/LinearProgress';
 
@@ -66,3 +67,4 @@ export function ChatMessageList({ messages = [], participants, loading }) {
     </>
   );
 }
+{% endraw %}

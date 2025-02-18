@@ -1,3 +1,4 @@
+{% raw %}
 import { usePopover } from 'minimal-shared/hooks';
 
 import Box from '@mui/material/Box';
@@ -177,3 +178,4 @@ export function PostItemHorizontal({ sx, post, editHref, detailsHref, ...other }
     </>
   );
 }
+{% endraw %}

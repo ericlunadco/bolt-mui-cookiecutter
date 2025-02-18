@@ -1,3 +1,4 @@
+{% raw %}
 import { NavAPI } from './nav-api';
 import { NavMini } from './nav-mini';
 import { NavBasic } from './nav-basic';
@@ -27,3 +28,4 @@ export function NavigationBarView() {
     />
   );
 }
+{% endraw %}

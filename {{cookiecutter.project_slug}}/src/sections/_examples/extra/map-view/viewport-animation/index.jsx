@@ -1,3 +1,4 @@
+{% raw %}
 import { useRef, useState, useCallback } from 'react';
 
 import { Map, MapControls } from 'src/components/map';
@@ -35,3 +36,4 @@ export function MapViewportAnimation({ data, sx, ...other }) {
     </Map>
   );
 }
+{% endraw %}

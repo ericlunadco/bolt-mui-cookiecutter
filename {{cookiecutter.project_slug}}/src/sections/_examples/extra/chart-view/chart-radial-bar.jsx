@@ -1,3 +1,4 @@
+{% raw %}
 import { varAlpha } from 'minimal-shared/utils';
 
 import { useTheme } from '@mui/material/styles';
@@ -62,3 +63,4 @@ export function ChartRadialBar({ chart }) {
     </>
   );
 }
+{% endraw %}

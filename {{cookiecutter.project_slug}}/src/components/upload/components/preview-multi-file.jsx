@@ -1,3 +1,4 @@
+{% raw %}
 import { varAlpha, mergeClasses } from 'minimal-shared/utils';
 
 import { styled } from '@mui/material/styles';
@@ -110,3 +111,4 @@ const ItemNode = styled('li', {
 })(({ thumbnail }) => ({
   ...(thumbnail && { width: 'auto', display: 'inline-flex' }),
 }));
+{% endraw %}

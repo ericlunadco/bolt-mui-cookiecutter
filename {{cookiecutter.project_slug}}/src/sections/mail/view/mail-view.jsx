@@ -1,3 +1,4 @@
+{% raw %}
 import { useBoolean } from 'minimal-shared/hooks';
 import { useEffect, useCallback, startTransition } from 'react';
 
@@ -159,3 +160,4 @@ export function MailView() {
     </>
   );
 }
+{% endraw %}

@@ -1,3 +1,4 @@
+{% raw %}
 import { useCallback } from 'react';
 import { usePopover } from 'minimal-shared/hooks';
 
@@ -190,3 +191,4 @@ export function InvoiceTableToolbar({ filters, options, dateError, onResetPage }
     </>
   );
 }
+{% endraw %}

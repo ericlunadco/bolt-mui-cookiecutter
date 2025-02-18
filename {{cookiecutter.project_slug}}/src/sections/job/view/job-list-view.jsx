@@ -1,3 +1,4 @@
+{% raw %}
 import { orderBy } from 'es-toolkit';
 import { useState, useCallback } from 'react';
 import { useBoolean, useSetState } from 'minimal-shared/hooks';
@@ -177,3 +178,4 @@ function applyFilter({ inputData, filters, sortBy }) {
 
   return inputData;
 }
+{% endraw %}

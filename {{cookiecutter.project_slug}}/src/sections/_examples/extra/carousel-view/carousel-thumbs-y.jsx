@@ -1,3 +1,4 @@
+{% raw %}
 import Box from '@mui/material/Box';
 
 import {
@@ -73,3 +74,4 @@ export function CarouselThumbsY({ data }) {
     </Box>
   );
 }
+{% endraw %}

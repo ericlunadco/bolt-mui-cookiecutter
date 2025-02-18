@@ -1,3 +1,4 @@
+{% raw %}
 import { useState, useCallback } from 'react';
 import { usePopover, usePopoverHover } from 'minimal-shared/hooks';
 
@@ -179,3 +180,4 @@ export function PopoverView() {
     />
   );
 }
+{% endraw %}

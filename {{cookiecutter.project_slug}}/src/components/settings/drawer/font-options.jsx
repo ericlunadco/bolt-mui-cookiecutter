@@ -1,3 +1,4 @@
+{% raw %}
 import { setFont } from 'minimal-shared/utils';
 
 import Box from '@mui/material/Box';
@@ -83,3 +84,4 @@ export function FontSizeOptions({ sx, value, options, onChangeOption, ...other }
     />
   );
 }
+{% endraw %}

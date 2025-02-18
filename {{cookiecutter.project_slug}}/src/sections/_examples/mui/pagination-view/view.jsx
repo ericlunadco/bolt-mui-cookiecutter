@@ -1,3 +1,4 @@
+{% raw %}
 import { useState, useCallback } from 'react';
 
 import Pagination from '@mui/material/Pagination';
@@ -142,3 +143,4 @@ export function PaginationView() {
     />
   );
 }
+{% endraw %}

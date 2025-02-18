@@ -1,3 +1,4 @@
+{% raw %}
 import { varAlpha } from 'minimal-shared/utils';
 import { useCountdownDate } from 'minimal-shared/hooks';
 
@@ -94,3 +95,4 @@ function TimeBlock({ label, value }) {
     </div>
   );
 }
+{% endraw %}

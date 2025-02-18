@@ -1,3 +1,4 @@
+{% raw %}
 import Box from '@mui/material/Box';
 import Chip from '@mui/material/Chip';
 import Grid from '@mui/material/Grid2';
@@ -172,3 +173,4 @@ export function PostDetailsHomeView({ post, latestPosts, loading, error }) {
     </>
   );
 }
+{% endraw %}

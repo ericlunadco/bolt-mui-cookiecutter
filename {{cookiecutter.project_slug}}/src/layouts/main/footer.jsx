@@ -1,3 +1,4 @@
+{% raw %}
 import Box from '@mui/material/Box';
 import Link from '@mui/material/Link';
 import Grid from '@mui/material/Grid2';
@@ -176,3 +177,4 @@ export function HomeFooter({ sx, ...other }) {
     </FooterRoot>
   );
 }
+{% endraw %}

@@ -1,3 +1,4 @@
+{% raw %}
 import { m } from 'framer-motion';
 import { varAlpha } from 'minimal-shared/utils';
 
@@ -150,3 +151,4 @@ const SKILLS = Array.from({ length: 3 }, (_, index) => ({
   value: [20, 40, 60][index],
   label: ['Development', 'Design', 'Marketing'][index],
 }));
+{% endraw %}

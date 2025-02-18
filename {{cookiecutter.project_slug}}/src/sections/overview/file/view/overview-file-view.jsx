@@ -1,3 +1,4 @@
+{% raw %}
 import { useState, useCallback } from 'react';
 import { useBoolean } from 'minimal-shared/hooks';
 
@@ -261,3 +262,4 @@ export function OverviewFileView() {
     </>
   );
 }
+{% endraw %}

@@ -1,3 +1,4 @@
+{% raw %}
 import { useTheme, alpha as hexAlpha } from '@mui/material/styles';
 
 import { Chart, useChart } from 'src/components/chart';
@@ -22,3 +23,4 @@ export function ChartColumnMultiple({ chart }) {
 
   return <Chart type="bar" series={chart.series} options={chartOptions} sx={{ height: 320 }} />;
 }
+{% endraw %}

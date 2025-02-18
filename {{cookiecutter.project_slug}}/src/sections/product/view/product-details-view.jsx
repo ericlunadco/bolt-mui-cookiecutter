@@ -1,3 +1,4 @@
+{% raw %}
 import { useTabs } from 'minimal-shared/hooks';
 import { varAlpha } from 'minimal-shared/utils';
 import { useState, useEffect, useCallback } from 'react';
@@ -172,3 +173,4 @@ export function ProductDetailsView({ product, error, loading }) {
     </DashboardContent>
   );
 }
+{% endraw %}

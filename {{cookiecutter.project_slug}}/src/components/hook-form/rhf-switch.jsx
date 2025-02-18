@@ -1,3 +1,4 @@
+{% raw %}
 import { Controller, useFormContext } from 'react-hook-form';
 
 import Box from '@mui/material/Box';
@@ -112,3 +113,4 @@ export function RHFMultiSwitch({ name, label, options, helperText, slotProps, ..
     />
   );
 }
+{% endraw %}

@@ -1,3 +1,4 @@
+{% raw %}
 import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
@@ -67,3 +68,4 @@ const NAV_INFO = (val) => ({
   'info.item3': <Label color="info">{val}</Label>,
   'info.item4': <>{val}</>,
 });
+{% endraw %}

@@ -1,3 +1,4 @@
+{% raw %}
 import { varAlpha } from 'minimal-shared/utils';
 
 import Box from '@mui/material/Box';
@@ -115,3 +116,4 @@ export function UserCard({ user, sx, ...other }) {
     </Card>
   );
 }
+{% endraw %}

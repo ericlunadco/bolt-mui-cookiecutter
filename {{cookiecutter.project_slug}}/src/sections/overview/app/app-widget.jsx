@@ -1,3 +1,4 @@
+{% raw %}
 import Box from '@mui/material/Box';
 import { useTheme } from '@mui/material/styles';
 
@@ -107,3 +108,4 @@ export function AppWidget({ title, total, icon, chart, sx, ...other }) {
     </Box>
   );
 }
+{% endraw %}

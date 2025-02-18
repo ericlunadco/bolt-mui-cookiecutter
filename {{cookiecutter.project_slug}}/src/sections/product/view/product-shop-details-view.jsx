@@ -1,3 +1,4 @@
+{% raw %}
 import { useTabs } from 'minimal-shared/hooks';
 import { varAlpha } from 'minimal-shared/utils';
 
@@ -174,3 +175,4 @@ export function ProductShopDetailsView({ product, error, loading }) {
     </Container>
   );
 }
+{% endraw %}

@@ -1,3 +1,4 @@
+{% raw %}
 import { memo, forwardRef } from 'react';
 
 import SvgIcon from '@mui/material/SvgIcon';
@@ -74,3 +75,4 @@ const SentIcon = forwardRef((props, ref) => {
 });
 
 export default memo(SentIcon);
+{% endraw %}

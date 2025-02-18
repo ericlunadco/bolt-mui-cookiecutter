@@ -1,3 +1,4 @@
+{% raw %}
 import Box from '@mui/material/Box';
 import { alpha as hexAlpha } from '@mui/material/styles';
 
@@ -46,3 +47,4 @@ export function PresetsOptions({ sx, value, options, onChangeOption, ...other })
     </Box>
   );
 }
+{% endraw %}

@@ -1,3 +1,4 @@
+{% raw %}
 import Joyride from 'react-joyride';
 import { varAlpha } from 'minimal-shared/utils';
 
@@ -70,3 +71,4 @@ export function Walktour({
     />
   );
 }
+{% endraw %}

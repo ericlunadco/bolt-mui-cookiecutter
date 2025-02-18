@@ -1,3 +1,4 @@
+{% raw %}
 import { useState, useCallback } from 'react';
 import { varAlpha } from 'minimal-shared/utils';
 
@@ -102,3 +103,4 @@ export function ChatHeaderCompose({ contacts, onAddRecipients }) {
     </>
   );
 }
+{% endraw %}

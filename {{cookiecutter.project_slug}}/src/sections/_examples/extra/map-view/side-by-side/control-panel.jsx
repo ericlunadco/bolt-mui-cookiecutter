@@ -1,3 +1,4 @@
+{% raw %}
 import ToggleButton from '@mui/material/ToggleButton';
 import ToggleButtonGroup from '@mui/material/ToggleButtonGroup';
 
@@ -15,3 +16,4 @@ export function MapControlPanel({ mode, onModeChange }) {
     </ControlPanelRoot>
   );
 }
+{% endraw %}

@@ -1,3 +1,4 @@
+{% raw %}
 import useSWR from 'swr';
 import { useState, useEffect, useCallback } from 'react';
 
@@ -186,3 +187,4 @@ export function TablePaginationWithApi() {
     </>
   );
 }
+{% endraw %}

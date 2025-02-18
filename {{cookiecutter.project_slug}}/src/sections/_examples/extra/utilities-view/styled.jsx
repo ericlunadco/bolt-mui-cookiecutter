@@ -1,3 +1,4 @@
+{% raw %}
 import { forwardRef } from 'react';
 import { mergeClasses } from 'minimal-shared/utils';
 
@@ -348,3 +349,4 @@ const StyledWithKeyframes = styled('div')(({ theme }) => ({
   color: theme.vars.palette.primary.contrastText,
   backgroundColor: theme.vars.palette.primary.main,
 }));
+{% endraw %}

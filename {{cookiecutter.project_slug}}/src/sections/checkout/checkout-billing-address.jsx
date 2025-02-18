@@ -1,3 +1,4 @@
+{% raw %}
 import { useBoolean } from 'minimal-shared/hooks';
 
 import Box from '@mui/material/Box';
@@ -94,3 +95,4 @@ export function CheckoutBillingAddress() {
     </>
   );
 }
+{% endraw %}

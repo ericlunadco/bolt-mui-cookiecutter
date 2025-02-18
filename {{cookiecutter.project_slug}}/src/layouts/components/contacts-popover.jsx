@@ -1,3 +1,4 @@
+{% raw %}
 import { m } from 'framer-motion';
 import { usePopover } from 'minimal-shared/hooks';
 
@@ -81,3 +82,4 @@ export function ContactsPopover({ data = [], sx, ...other }) {
     </>
   );
 }
+{% endraw %}

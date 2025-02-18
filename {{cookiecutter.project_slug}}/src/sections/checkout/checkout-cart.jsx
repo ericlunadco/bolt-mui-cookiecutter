@@ -1,3 +1,4 @@
+{% raw %}
 import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
 import Grid from '@mui/material/Grid2';
@@ -114,3 +115,4 @@ export function CheckoutCart() {
     </Grid>
   );
 }
+{% endraw %}

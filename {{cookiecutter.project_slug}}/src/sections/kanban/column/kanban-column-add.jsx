@@ -1,3 +1,4 @@
+{% raw %}
 import { useState, useCallback } from 'react';
 import { uuidv4 } from 'minimal-shared/utils';
 import { useBoolean } from 'minimal-shared/hooks';
@@ -94,3 +95,4 @@ export function KanbanColumnAdd({ sx, ...other }) {
     </>
   );
 }
+{% endraw %}

@@ -1,3 +1,4 @@
+{% raw %}
 import { useState, useCallback } from 'react';
 import { useBoolean, usePopover } from 'minimal-shared/hooks';
 
@@ -138,3 +139,4 @@ export function KanbanDetailsToolbar({
     </>
   );
 }
+{% endraw %}

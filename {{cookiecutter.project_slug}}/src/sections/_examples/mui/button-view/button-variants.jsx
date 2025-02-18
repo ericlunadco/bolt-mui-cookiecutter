@@ -1,3 +1,4 @@
+{% raw %}
 import Button from '@mui/material/Button';
 import LoadingButton from '@mui/lab/LoadingButton';
 
@@ -118,3 +119,4 @@ export function ButtonVariants({ variant = 'text' }) {
     </>
   );
 }
+{% endraw %}

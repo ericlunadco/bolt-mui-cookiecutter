@@ -1,3 +1,4 @@
+{% raw %}
 import { merge } from 'es-toolkit';
 
 import Box from '@mui/material/Box';
@@ -95,3 +96,4 @@ export function SimpleLayout({ sx, cssVars, children, slotProps, layoutQuery = '
     </LayoutSection>
   );
 }
+{% endraw %}

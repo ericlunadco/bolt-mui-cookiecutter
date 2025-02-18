@@ -1,3 +1,4 @@
+{% raw %}
 import { useForm } from 'react-hook-form';
 
 import Card from '@mui/material/Card';
@@ -75,3 +76,4 @@ export function AccountSocials({ socialLinks }) {
     </Form>
   );
 }
+{% endraw %}

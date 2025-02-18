@@ -1,3 +1,4 @@
+{% raw %}
 import Link from '@mui/material/Link';
 import { styled } from '@mui/material/styles';
 
@@ -60,3 +61,4 @@ const ItemIcon = styled('span')(() => ({
     height: 20,
   },
 }));
+{% endraw %}

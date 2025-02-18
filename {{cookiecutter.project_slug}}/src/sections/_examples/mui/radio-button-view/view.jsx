@@ -1,3 +1,4 @@
+{% raw %}
 import { useState } from 'react';
 
 import Radio from '@mui/material/Radio';
@@ -112,3 +113,4 @@ export function RadioButtonView() {
     />
   );
 }
+{% endraw %}

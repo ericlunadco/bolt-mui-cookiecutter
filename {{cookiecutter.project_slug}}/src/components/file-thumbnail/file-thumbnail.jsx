@@ -1,3 +1,4 @@
+{% raw %}
 import { forwardRef } from 'react';
 import { mergeClasses } from 'minimal-shared/utils';
 
@@ -104,3 +105,4 @@ const ItemImg = styled('img')(() => ({
   objectFit: 'cover',
   borderRadius: 'inherit',
 }));
+{% endraw %}

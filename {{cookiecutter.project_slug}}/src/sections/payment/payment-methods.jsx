@@ -1,3 +1,4 @@
+{% raw %}
 import { useState, useCallback } from 'react';
 import { varAlpha } from 'minimal-shared/utils';
 import { useBoolean } from 'minimal-shared/hooks';
@@ -160,3 +161,4 @@ function OptionItem({ option, onOpen, selected, isCredit, sx, ...other }) {
     </Box>
   );
 }
+{% endraw %}

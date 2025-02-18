@@ -1,3 +1,4 @@
+{% raw %}
 import { z as zod } from 'zod';
 import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
@@ -88,3 +89,4 @@ export function SplitResetPasswordView() {
     </>
   );
 }
+{% endraw %}

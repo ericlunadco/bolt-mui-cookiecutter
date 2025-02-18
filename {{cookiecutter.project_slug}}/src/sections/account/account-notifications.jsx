@@ -1,3 +1,4 @@
+{% raw %}
 import { useForm, Controller } from 'react-hook-form';
 
 import Box from '@mui/material/Box';
@@ -141,3 +142,4 @@ export function AccountNotifications({ sx, ...other }) {
     </Form>
   );
 }
+{% endraw %}

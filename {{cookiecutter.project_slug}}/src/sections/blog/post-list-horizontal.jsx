@@ -1,3 +1,4 @@
+{% raw %}
 import Box from '@mui/material/Box';
 import Pagination, { paginationClasses } from '@mui/material/Pagination';
 
@@ -45,3 +46,4 @@ export function PostListHorizontal({ posts, loading }) {
     </>
   );
 }
+{% endraw %}

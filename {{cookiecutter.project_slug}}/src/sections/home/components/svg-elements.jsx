@@ -1,3 +1,4 @@
+{% raw %}
 import { useId } from 'react';
 import { m } from 'framer-motion';
 
@@ -279,3 +280,4 @@ export function FloatDotIcon({ sx, ...other }) {
     />
   );
 }
+{% endraw %}

@@ -1,3 +1,4 @@
+{% raw %}
 import { useState, useCallback } from 'react';
 
 import MenuItem from '@mui/material/MenuItem';
@@ -277,3 +278,4 @@ export function Textfields({ variant }) {
     </>
   );
 }
+{% endraw %}

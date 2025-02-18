@@ -1,3 +1,4 @@
+{% raw %}
 import { parsePhoneNumber } from 'react-phone-number-input';
 import PhoneNumberInput from 'react-phone-number-input/input';
 import { useState, useEffect, forwardRef, useCallback, startTransition } from 'react';
@@ -136,3 +137,4 @@ function getCountryCode(inputValue, countryCode) {
 
   return countryCode;
 }
+{% endraw %}

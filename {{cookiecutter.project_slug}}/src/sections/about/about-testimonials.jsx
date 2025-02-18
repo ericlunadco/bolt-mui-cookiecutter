@@ -1,3 +1,4 @@
+{% raw %}
 import { m } from 'framer-motion';
 import { varAlpha } from 'minimal-shared/utils';
 
@@ -176,3 +177,4 @@ function TestimonialItem({ testimonial, sx, ...other }) {
     </Box>
   );
 }
+{% endraw %}

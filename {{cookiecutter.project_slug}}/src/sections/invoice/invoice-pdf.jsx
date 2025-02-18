@@ -1,3 +1,4 @@
+{% raw %}
 import { useMemo } from 'react';
 import {
   Page,
@@ -278,3 +279,4 @@ function InvoicePdfDocument({ invoice, currentStatus }) {
     </Document>
   );
 }
+{% endraw %}

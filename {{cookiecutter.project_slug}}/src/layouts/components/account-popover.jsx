@@ -1,3 +1,4 @@
+{% raw %}
 import { usePopover } from 'minimal-shared/hooks';
 
 import Box from '@mui/material/Box';
@@ -116,3 +117,4 @@ export function AccountPopover({ data = [], sx, ...other }) {
     </>
   );
 }
+{% endraw %}

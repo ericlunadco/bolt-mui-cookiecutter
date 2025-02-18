@@ -1,3 +1,4 @@
+{% raw %}
 import { useCallback } from 'react';
 import { useBoolean, usePopover } from 'minimal-shared/hooks';
 
@@ -186,3 +187,4 @@ function CarouselItem({ item, showCurrency, onToggleCurrency }) {
     </>
   );
 }
+{% endraw %}

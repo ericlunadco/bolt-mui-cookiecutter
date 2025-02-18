@@ -1,3 +1,4 @@
+{% raw %}
 import { varAlpha } from 'minimal-shared/utils';
 import { useBoolean, usePopover } from 'minimal-shared/hooks';
 import { useId, useRef, useState, useEffect, useCallback } from 'react';
@@ -170,3 +171,4 @@ export function KanbanColumnToolBar({
     </>
   );
 }
+{% endraw %}

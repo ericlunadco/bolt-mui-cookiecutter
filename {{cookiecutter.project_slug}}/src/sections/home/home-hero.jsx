@@ -1,3 +1,4 @@
+{% raw %}
 import { useRef, useState } from 'react';
 import { m, useScroll, useSpring, useTransform, useMotionValueEvent } from 'framer-motion';
 
@@ -344,3 +345,4 @@ function useScrollPercent() {
 
   return { elementRef, percent, scrollY };
 }
+{% endraw %}

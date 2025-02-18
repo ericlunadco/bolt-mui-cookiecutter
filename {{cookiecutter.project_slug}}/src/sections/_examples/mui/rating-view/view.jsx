@@ -1,3 +1,4 @@
+{% raw %}
 import { useState } from 'react';
 
 import Box from '@mui/material/Box';
@@ -184,3 +185,4 @@ function IconContainer(props) {
 
   return <span {...other}>{customIcons[value].icon}</span>;
 }
+{% endraw %}

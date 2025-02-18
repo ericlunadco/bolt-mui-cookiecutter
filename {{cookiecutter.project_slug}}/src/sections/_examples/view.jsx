@@ -1,3 +1,4 @@
+{% raw %}
 import { m } from 'framer-motion';
 
 import Box from '@mui/material/Box';
@@ -113,3 +114,4 @@ const renderDescription = (sectionTitle) => {
     </Box>
   );
 };
+{% endraw %}

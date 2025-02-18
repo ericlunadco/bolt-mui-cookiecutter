@@ -1,3 +1,4 @@
+{% raw %}
 import { sumBy } from 'es-toolkit';
 import { useBoolean } from 'minimal-shared/hooks';
 
@@ -114,3 +115,4 @@ export function ProductDetailsReview({ totalRatings, totalReviews, ratings = [],
     </>
   );
 }
+{% endraw %}

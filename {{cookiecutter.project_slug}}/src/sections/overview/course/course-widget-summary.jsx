@@ -1,3 +1,4 @@
+{% raw %}
 import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
 import Typography from '@mui/material/Typography';
@@ -48,3 +49,4 @@ export function CourseWidgetSummary({ sx, icon, title, total, color = 'warning',
     </Card>
   );
 }
+{% endraw %}

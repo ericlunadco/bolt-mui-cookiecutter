@@ -1,3 +1,4 @@
+{% raw %}
 import Box from '@mui/material/Box';
 import Stack from '@mui/material/Stack';
 import Skeleton from '@mui/material/Skeleton';
@@ -84,3 +85,4 @@ export function ChatRoomSkeleton({ sx, ...other }) {
     </Box>
   );
 }
+{% endraw %}

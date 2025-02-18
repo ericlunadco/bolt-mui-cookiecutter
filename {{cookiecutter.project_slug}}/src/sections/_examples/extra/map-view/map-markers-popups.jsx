@@ -1,3 +1,4 @@
+{% raw %}
 import { useState } from 'react';
 
 import Box from '@mui/material/Box';
@@ -71,3 +72,4 @@ export function MapMarkersPopups({ data, sx, ...other }) {
     </Map>
   );
 }
+{% endraw %}

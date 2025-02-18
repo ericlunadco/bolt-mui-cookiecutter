@@ -1,3 +1,4 @@
+{% raw %}
 import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
 import Stack from '@mui/material/Stack';
@@ -118,3 +119,4 @@ export function CheckoutSummary({ onEdit, checkoutState, onApplyDiscount }) {
     </Card>
   );
 }
+{% endraw %}

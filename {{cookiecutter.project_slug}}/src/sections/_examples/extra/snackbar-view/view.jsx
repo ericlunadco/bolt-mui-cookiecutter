@@ -1,3 +1,4 @@
+{% raw %}
 import Button from '@mui/material/Button';
 
 import { toast } from 'src/components/snackbar';
@@ -256,3 +257,4 @@ export function SnackbarView() {
     />
   );
 }
+{% endraw %}

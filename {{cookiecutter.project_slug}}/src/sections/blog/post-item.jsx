@@ -1,3 +1,4 @@
+{% raw %}
 import { varAlpha } from 'minimal-shared/utils';
 
 import Box from '@mui/material/Box';
@@ -181,3 +182,4 @@ function InfoBlock({ sx, totalViews, totalShares, totalComments, ...other }) {
     </Box>
   );
 }
+{% endraw %}

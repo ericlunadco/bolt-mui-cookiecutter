@@ -1,3 +1,4 @@
+{% raw %}
 import { varAlpha } from 'minimal-shared/utils';
 
 import Box from '@mui/material/Box';
@@ -108,3 +109,4 @@ export function EcommerceWidgetSummary({ title, percent, total, chart, sx, ...ot
     </Card>
   );
 }
+{% endraw %}

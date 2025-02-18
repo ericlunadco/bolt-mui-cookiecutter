@@ -1,3 +1,4 @@
+{% raw %}
 import { ChartPie } from './chart-pie';
 import { ChartBar } from './chart-bar';
 import { ChartLine } from './chart-line';
@@ -489,3 +490,4 @@ export function ChartView() {
     />
   );
 }
+{% endraw %}

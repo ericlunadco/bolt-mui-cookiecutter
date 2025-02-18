@@ -1,3 +1,4 @@
+{% raw %}
 import Typography from '@mui/material/Typography';
 
 import { ControlPanelRoot } from '../styles';
@@ -39,3 +40,4 @@ export function MapControlPanel({ events = {} }) {
     </ControlPanelRoot>
   );
 }
+{% endraw %}

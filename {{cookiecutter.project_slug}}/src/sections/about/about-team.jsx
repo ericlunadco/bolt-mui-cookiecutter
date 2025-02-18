@@ -1,3 +1,4 @@
+{% raw %}
 import { m } from 'framer-motion';
 
 import Box from '@mui/material/Box';
@@ -123,3 +124,4 @@ function MemberCard({ member }) {
     </Card>
   );
 }
+{% endraw %}

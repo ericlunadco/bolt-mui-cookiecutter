@@ -1,3 +1,4 @@
+{% raw %}
 import { useMemo, useCallback } from 'react';
 
 import Chip from '@mui/material/Chip';
@@ -169,3 +170,4 @@ export function CountrySelect({
     />
   );
 }
+{% endraw %}

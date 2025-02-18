@@ -1,3 +1,4 @@
+{% raw %}
 import Card from '@mui/material/Card';
 import { useTheme } from '@mui/material/styles';
 import Typography from '@mui/material/Typography';
@@ -45,3 +46,4 @@ export function CourseMyStrength({ title, chart, sx, ...other }) {
     </Card>
   );
 }
+{% endraw %}

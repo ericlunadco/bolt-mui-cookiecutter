@@ -1,3 +1,4 @@
+{% raw %}
 import { paths } from 'src/routes/paths';
 
 import { PickerDate } from './picker-date';
@@ -32,3 +33,4 @@ export function DatePickersView() {
     />
   );
 }
+{% endraw %}

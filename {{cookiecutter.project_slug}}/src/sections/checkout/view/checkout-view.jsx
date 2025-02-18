@@ -1,3 +1,4 @@
+{% raw %}
 import Grid from '@mui/material/Grid2';
 import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
@@ -40,3 +41,4 @@ export function CheckoutView() {
     </Container>
   );
 }
+{% endraw %}
