@@ -18,6 +18,6 @@
     },
     "enable_user_management": false,
     "theme_mode": "dark",
-    "components": ["basic"],
+    "components": ["table", "form", "button"],
     "enable_landing_page": false
 }
