@@ -20,8 +20,8 @@
     "theme_mode": "dark",
     "components": {
         "table": true,
-        "form": true,
-        "button": true
+        "chart": true,
+        "map": true
     },
     "enable_landing_page": false
 }
