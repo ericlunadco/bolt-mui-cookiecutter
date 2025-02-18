@@ -9,11 +9,14 @@ def remove_disabled_components():
 
     def is_allowed_dir(dir_name):
         for comp, enabled in allowed_components.items():
+            print(f"Checking {comp} in {dir_name.lower()}")
+            print(f"Enabled: {enabled}")
             if enabled and comp in dir_name.lower():
                 return True
         return False
 
     components_folder = Path("{{ cookiecutter.project_slug }}", "src", "components")
+    print(f"Components folder: {components_folder}")
     if components_folder.exists():
         for component_dir in components_folder.iterdir():
             if component_dir.is_dir() and not is_allowed_dir(component_dir.name):
