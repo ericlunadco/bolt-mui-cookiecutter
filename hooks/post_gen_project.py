@@ -16,7 +16,17 @@ def remove_disabled_components():
         return False
 
     components_folder = Path("{{ cookiecutter.project_slug }}", "src", "components")
-    print(f"Components folder: {components_folder}")
+    print(f"Current working directory: {Path.cwd()}")
+    print(f"Absolute path to components folder: {components_folder.absolute()}")
+    print(f"Components folder parts: {list(components_folder.parts)}")
+    print(f"Components folder exists: {components_folder.exists()}")
+
+    # Try to list parent directories to see if they exist
+    parent = components_folder.parent
+    print(f"Parent directory ({parent}) exists: {parent.exists()}")
+    grandparent = parent.parent
+    print(f"Grandparent directory ({grandparent}) exists: {grandparent.exists()}")
+
     if components_folder.exists():
         print(f"Components folder exists: {components_folder}")
         for component_dir in components_folder.iterdir():
