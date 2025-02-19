@@ -18,7 +18,10 @@ def remove_disabled_components():
     components_folder = Path("{{ cookiecutter.project_slug }}", "src", "components")
     print(f"Components folder: {components_folder}")
     if components_folder.exists():
+        print(f"Components folder exists: {components_folder}")
         for component_dir in components_folder.iterdir():
+            print(f"Component dir: {component_dir}")
+            print(f"Component dir is dir: {component_dir.is_dir()}")
             if component_dir.is_dir() and not is_allowed_dir(component_dir.name):
                 shutil.rmtree(component_dir)
                 print(f"Removed component folder: {component_dir}")
