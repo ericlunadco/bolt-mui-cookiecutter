@@ -15,7 +15,7 @@ def remove_disabled_components():
                 return True
         return False
 
-    components_folder = Path("{{ cookiecutter.project_slug }}", "src", "components")
+    components_folder = Path("src", "components")
     print(f"Current working directory: {Path.cwd()}")
     print(f"Absolute path to components folder: {components_folder.absolute()}")
     print(f"Components folder parts: {list(components_folder.parts)}")
