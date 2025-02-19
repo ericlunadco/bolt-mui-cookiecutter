@@ -12,6 +12,8 @@ def remove_disabled_components():
         dir_name = dir_name.lower()
         for comp, enabled in allowed_components.items():
             # Check if the directory name exactly matches the component name
+            print(f"Checking {comp} in {dir_name}")
+            print(f"Enabled: {enabled}")
             if enabled and dir_name == comp:
                 return True
         return False
