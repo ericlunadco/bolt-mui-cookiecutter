@@ -15,6 +15,7 @@ def remove_disabled_components():
             if enabled and dir_name == comp:
                 print(f"Checking {comp} in {dir_name}")
                 print(f"Enabled: {enabled}")
+                print(f"Enabled type: {type(enabled)}")
                 return True
         return False
 
